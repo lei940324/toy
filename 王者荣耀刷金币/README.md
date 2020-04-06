@@ -24,7 +24,7 @@
 
 ## 操控原理
 
-使用python-uiautomator2操控手机，只支持安卓手机，具体准备工作可以参考：https://blog.csdn.net/u013289615/article/details/90480832。
+使用python-uiautomator2操控手机，只支持安卓手机，具体准备工作可以参考：[手机自动化测试（准备篇）](https://blog.csdn.net/u013289615/article/details/90480832)。
 
 因为王者荣耀无法通过uiautomator2获取控件，所以本文思路是通过uiautomator2获取手机截图，接入腾讯OCR进行文字识别，并得到其文字位置，进而点击对应坐标并保存按钮截图，最后完成其按钮操作。以后的循环就只根据图像识别，进行模糊匹配获取当前屏幕信息，不再进行OCR识别。
 
