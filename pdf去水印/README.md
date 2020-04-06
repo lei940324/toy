@@ -23,7 +23,7 @@
 
 * Windows安装配置poppler
 
-  Windows用户必须为Windows安装poppler (http://blog.alivate.com.au/poppler-windows/)，然后将bin/文件夹添加到环境变量，并且需要重启电脑才会生效
+  Windows用户必须为Windows安装[poppler](http://blog.alivate.com.au/poppler-windows/)，然后将bin/文件夹添加到环境变量，并且需要重启电脑才会生效
 
 ## 安装wand库
 
