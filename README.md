@@ -7,4 +7,4 @@
 3. [中国海洋大学毕业论文格式调整器](https://github.com/lei940324/ouc_thesis_format)
 4. [微信小应用](https://github.com/lei940324/Application_itchat)
    * [汇总微信消息](https://github.com/lei940324/Application_itchat/tree/master/%E6%B1%87%E6%80%BB%E5%BE%AE%E4%BF%A1%E6%B6%88%E6%81%AF)
-5. [pdf去水印](https://github.com/lei940324/pdf去水印)
+5. [pdf去水印](https://github.com/lei940324/toy/tree/master/pdf%E5%8E%BB%E6%B0%B4%E5%8D%B0)
