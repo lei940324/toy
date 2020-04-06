@@ -16,9 +16,9 @@ import json
 
 
 def TencentOCR(picture):
-    appid = '1259246971'
-    secret_id = 'AKIDQ9f9RhGKgmgK9k85nGSyMVSHuHPHJ14M'
-    secret_key = 'sZ3HE2gEtMdBVvjnAlKgoxtd5HD3dDZi'
+    appid = '***'
+    secret_id = '***'
+    secret_key = '***'
     bucket = 'BUCKET'
 
     expired = time.time() + 2592000

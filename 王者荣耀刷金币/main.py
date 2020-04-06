@@ -22,7 +22,7 @@ class kings(threading.Thread):
 
     device_num = 0
 
-    def __init__(self, name, device, num=60, timer=48, wait=20, level=2, jinbi=56):
+    def __init__(self, name, device, num=60, timer=98, wait=20, level=2, jinbi=56):
         """
         Parameters
         ----------
@@ -130,7 +130,7 @@ class kings(threading.Thread):
 
 if __name__ == '__main__':
     print('程序开始运行')
-    os.chdir(r'G:\研究生\自制程序\爬虫\王者荣耀刷金币')   # 改变当前工作目录
+    os.chdir(r'.\截图')   # 改变当前工作目录
 
     # 获取设备ID
     dev = subprocess.getstatusoutput("adb devices")[1]
