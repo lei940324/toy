@@ -14,3 +14,5 @@
 
 5. [pdf去水印](https://github.com/lei940324/toy/tree/master/pdf%E5%8E%BB%E6%B0%B4%E5%8D%B0)
 
+6. [文本倾斜矫正](https://github.com/lei940324/toy/tree/master/文本倾斜矫正)
+
