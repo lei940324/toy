@@ -1,6 +1,6 @@
 闲暇时，打发时间编写的小玩具
 
-# 目录
+# 小玩具
 
 * [论文中的统计性描述生成器（GUI界面）](https://github.com/lei940324/description)：统计量自动标星
 * [中国海洋大学毕业论文格式调整器](https://github.com/lei940324/ouc_thesis_format)
@@ -19,3 +19,6 @@
   * [王者荣耀刷金币](https://github.com/lei940324/toy/tree/master/手机自动化操作/王者荣耀刷金币)：通过图像识别增加稳定性
   * [刷66阅读+趣头条](https://github.com/lei940324/toy/tree/master/手机自动化操作/66阅读+趣头条.py)
 
+# 笔记
+
+* [数据库基础]()
