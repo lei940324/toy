@@ -21,3 +21,4 @@
 
 * [数据库基础](https://github.com/lei940324/toy/blob/master/笔记/SQL基本语法.md)
 * [pandas总结](https://github.com/lei940324/toy/blob/master/笔记/pandas总结.md)
+* [xpath](https://github.com/lei940324/toy/blob/master/笔记/xpath.ipynb)
