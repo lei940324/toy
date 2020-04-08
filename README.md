@@ -17,3 +17,6 @@
 6. [文本倾斜矫正](https://github.com/lei940324/toy/tree/master/文本倾斜矫正)
 
 7. [word套打](https://github.com/lei940324/toy/tree/master/word套打)
+
+8. [Quantile](https://github.com/lei940324/Quantile)：介绍分位数回归，包括分位数Granger因果检验、QVAR及脉冲响应函数
+
