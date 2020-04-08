@@ -20,3 +20,13 @@
 
 8. [Quantile](https://github.com/lei940324/Quantile)：介绍分位数回归，包括分位数Granger因果检验、QVAR及脉冲响应函数
 
+9. [spider](https://github.com/lei940324/spider)：网络爬虫的例子
+
+   9.1[微博](https://github.com/lei940324/spider/tree/master/%E5%BE%AE%E5%8D%9A)
+
+   ​	9.1.1[登陆微博](https://github.com/lei940324/spider/blob/master/%E5%BE%AE%E5%8D%9A/loginWeibo.py)
+
+   9.2[selenium应用](https://github.com/lei940324/spider/tree/master/selenium)
+
+   
+
