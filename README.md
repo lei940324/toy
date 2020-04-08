@@ -14,7 +14,7 @@
   * [微博](https://github.com/lei940324/spider/tree/master/%E5%BE%AE%E5%8D%9A)
     * [登陆微博](https://github.com/lei940324/spider/blob/master/%E5%BE%AE%E5%8D%9A/loginWeibo.py)：使用requests获取cookie信息
   * [selenium应用](https://github.com/lei940324/spider/tree/master/selenium)
-* 手机自动化操作：使用`uiautomator2`库进行手机操作，适用于`Android`手机
-  * [抓取朋友圈](https://github.com/lei940324/toy/tree/master/抓取朋友圈)：模拟滑屏进行抓取，因此效率不高，最后将好友动态内容分词进行词云展示
-  * [王者荣耀刷金币](https://github.com/lei940324/toy/tree/master/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E5%88%B7%E9%87%91%E5%B8%81)：通过图像识别增加稳定性
+* [手机自动化操作](https://github.com/lei940324/toy/tree/master/手机自动化操作)：使用`uiautomator2`库进行手机操作，适用于`Android`手机
+  * [抓取朋友圈](https://github.com/lei940324/toy/tree/master/手机自动化操作/抓取朋友圈)：模拟滑屏进行抓取，因此效率不高，最后将好友动态内容分词进行词云展示
+  * [王者荣耀刷金币](https://github.com/lei940324/toy/tree/master/手机自动化操作/王者荣耀刷金币)：通过图像识别增加稳定性
 
