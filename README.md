@@ -1,5 +1,3 @@
-闲暇时，打发时间编写的小玩具
-
 # 小玩具
 
 * [论文中的统计性描述生成器（GUI界面）](https://github.com/lei940324/description)：统计量自动标星
@@ -21,4 +19,5 @@
 
 # 笔记
 
-* [数据库基础]()
+* [数据库基础](https://github.com/lei940324/toy/blob/master/笔记/SQL基本语法.md)
+* [pandas总结](https://github.com/lei940324/toy/blob/master/笔记/pandas总结.md)
