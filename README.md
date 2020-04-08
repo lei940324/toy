@@ -1,3 +1,5 @@
+> 相信自己，我们每个人都是主角
+
 # 小玩具
 
 * [论文中的统计性描述生成器（GUI界面）](https://github.com/lei940324/description)：统计量自动标星
@@ -22,3 +24,19 @@
 * [数据库基础](https://github.com/lei940324/toy/blob/master/笔记/SQL基本语法.md)
 * [pandas总结](https://github.com/lei940324/toy/blob/master/笔记/pandas总结.md)
 * [xpath](https://github.com/lei940324/toy/blob/master/笔记/xpath.ipynb)
+
+# Development Tool
+
+- **Qt Creator**：GUI界面可视化
+
+  <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" alt="image-20200331182028292" style="zoom:50%;" />
+
+- **PyCharm**：代码编辑器
+
+  <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" alt="image-20200331182339215" style="zoom:50%;" />
+
+* **Visual Studio Code**：代码阅读器
+
+  ![image-20200409000632554](https://raw.githubusercontent.com/lei940324/picture/master/typora202004/09/000635-457642.png)
+
+  
