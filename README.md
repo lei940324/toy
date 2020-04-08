@@ -16,3 +16,4 @@
 
 6. [文本倾斜矫正](https://github.com/lei940324/toy/tree/master/文本倾斜矫正)
 
+7. [word套打](https://github.com/lei940324/toy/tree/master/word套打)
