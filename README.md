@@ -2,9 +2,9 @@
 
 # 目录
 
-1. [王者荣耀刷金币](https://github.com/lei940324/toy/tree/master/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E5%88%B7%E9%87%91%E5%B8%81)
+1. [王者荣耀刷金币](https://github.com/lei940324/toy/tree/master/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E5%88%B7%E9%87%91%E5%B8%81)：使用UIautomator2库操作`Android`手机，并通过图像识别增加稳定性
 
-2. [论文中的统计性描述生成器（GUI界面）](https://github.com/lei940324/description)
+2. [论文中的统计性描述生成器（GUI界面）](https://github.com/lei940324/description)：统计变量自动标星
 
 3. [中国海洋大学毕业论文格式调整器](https://github.com/lei940324/ouc_thesis_format)
 
