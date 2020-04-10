@@ -1,11 +1,9 @@
-# 要求
-
-* python 3.6+
-* 安装第三方库：`uiautomator2`
+<a href="https://www.python.org/downloads/"><img  src="https://img.shields.io/badge/python-3.6%2B-brightgreen"></a>
+<a href="https://github.com/openatx/uiautomator2"><img src="https://img.shields.io/badge/uiautomator2-2.7.1-brightgreen"></a>
 
 # 准备工作
 
-使用python-uiautomator2操控手机，只支持安卓手机，具体准备工作可以参考：[手机自动化测试（准备篇）](https://blog.csdn.net/u013289615/article/details/90480832)。
+使用`python-uiautomator2`操控手机，只支持安卓手机，具体准备工作可以参考：[手机自动化测试（准备篇）](https://blog.csdn.net/u013289615/article/details/90480832)。
 
 使用数据线连接手机，保证开发者选项已打开，uiautomator2能与手机正常连接，可以连接多台手机
 

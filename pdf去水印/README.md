@@ -1,3 +1,8 @@
+<a href="https://www.python.org/downloads/"><img  src="https://img.shields.io/badge/python-3.6%2B-brightgreen"></a>
+<a href="https://github.com/emcconville/wand"><img src="https://img.shields.io/badge/wand-0.5.9-blue"></a>
+<a href="https://pypi.org/project/fitz/"><img src="https://img.shields.io/badge/fitz-0.0.1.dev2-lightgrey"></a>
+<a href="https://github.com/Belval/pdf2image"><img src="https://img.shields.io/badge/pdf2image-1.12.1-yellow"></a>
+
 # 介绍
 
 将pdf水印去掉，仅适用于黑白色，因为彩色会出现过度锐化现象
@@ -6,10 +11,6 @@
 
 ![image-20200406193543968](https://raw.githubusercontent.com/lei940324/picture/master/typora202004/06/193550-696399.png)
 
-# 要求
-
-* python3.6+
-* 第三方库：`pdf2image`、`fitz`、`wand`
 
 # 实现原理
 

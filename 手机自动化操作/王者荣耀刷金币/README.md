@@ -1,8 +1,9 @@
-# 要求
+<a href="https://www.python.org/downloads/"><img  src="https://img.shields.io/badge/python-3.6%2B-brightgreen"></a>
+<a href="https://github.com/openatx/uiautomator2"><img src="https://img.shields.io/badge/uiautomator2-2.7.1-brightgreen"></a>
+<a href="https://github.com/NetEaseGame/aircv"><img src="https://img.shields.io/badge/aircv-1.4.6-orange"></a>
+<a href="https://github.com/python-pillow/Pillow"><img src="https://img.shields.io/badge/Pillow-7.0.0-red"></a>
 
-* python 3.6+
 
-* 安装第三方库：`uiautomator2`、`aircv`、`PIL`
 
   > 这里有一点要注意的是aircv依赖于cv2库，**有个很坑的地方是**，不能直接通过pip install cv2进行安装，而应该是pip install opencv-python，就可以安装了。
 

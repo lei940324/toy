@@ -1,13 +1,17 @@
+<a href="https://www.python.org/downloads/"><img  src="https://img.shields.io/badge/python-3.6%2B-brightgreen"></a>
+<a href="https://github.com/lxml/lxml"><img src="https://img.shields.io/badge/lxml-4.5.0-red"></a>
+<a href="https://github.com/openatx/uiautomator2"><img src="https://img.shields.io/badge/uiautomator2-2.7.1-brightgreen"></a>
+<a href="https://github.com/pandas-dev/pandas"><img src="https://img.shields.io/badge/pandas-1.0.1-yellow"></a>
+<a href="https://pypi.org/project/wordcloud/"><img src="https://img.shields.io/badge/wordcloud-1.6.0-blue"></a>
+<a href="https://github.com/fxsjy/jieba"><img src="https://img.shields.io/badge/jieba-0.42.1-blue"></a>
+<a href="https://github.com/matplotlib/matplotlib"><img src="https://img.shields.io/badge/matplotlib-3.1.3-blue"></a>
+
 # 介绍
 
 实现朋友圈好友动态抓取，并生成词云展示
 
 ![image-20200408210520162](https://raw.githubusercontent.com/lei940324/picture/master/typora202004/08/212610-630866.png)
 
-# 要求
-
-* python3.6+
-  * 第三方库：`lxml`、`uiautomator2`、`pandas`、`wordcloud`、`jieba`、`matplotlib`
 
 # 使用
 
