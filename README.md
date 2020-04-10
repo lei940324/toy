@@ -20,6 +20,8 @@
 
 * [spider](https://github.com/lei940324/spider)：网络爬虫的例子
   
+  * [网络爬虫入门教程](https://github.com/lei940324/spider/blob/master/网络爬虫——入门.md)
+  
   * [模板](https://github.com/lei940324/spider/tree/master/模板)：使用requests库抓取的模板
     * [单线程](https://github.com/lei940324/spider/blob/master/模板/GetUrl.py)：网址无响应，默认自动重连5次
     * [多线程](https://github.com/lei940324/spider/blob/master/模板/ThreadGetUrl.py)：依赖于单线程模板
