@@ -8,22 +8,19 @@ import threading
 import re
 import subprocess
 from appmi import dxpath
-import uiautomator2 as u2
 import time
 import random
 
-def run(dev,bao=False,video=False,read=True):  
-    d = dev
-    mi=dxpath(d)
-    
-    def open_screen():
-        d.press(26) # power
-        time.sleep(1)
-        d.swipe(300, 300, 1000, 300, 0.1)
+def run(mi, bao=False, video=False, read=True):  
+
+    # def open_screen():
+    #     mi.d.press(26) # power
+    #     time.sleep(1)
+    #     mi.d.swipe(300, 300, 1000, 300, 0.1)
     
     if read:
         #66阅读程序启动
-        d.session("com.tencent.mm") # start
+        mi.d.session("com.tencent.mm") # start
         mi.click('//*[@text="我"]/preceding-sibling::node')
         mi.click('//*[@text="收藏"]')
         time.sleep(2)
@@ -31,7 +28,7 @@ def run(dev,bao=False,video=False,read=True):
             if '66阅读' in mi.get_text('//*[@resource-id="com.tencent.mm:id/bb"]',False):
                 mi.click('//*[@text="66阅读"]')
                 break
-            d.swipe(300, 1000, 300, 300, 0.1)
+            mi.d.swipe(300, 1000, 300, 300, 0.1)
         
         #mi.exists('//*[@text="开始阅读"]')
         mi.click('//*[@text="开始阅读"]')  
@@ -41,22 +38,22 @@ def run(dev,bao=False,video=False,read=True):
         if not EXIT:
             time.sleep(6)        
             while True:
-                d.press(4) # back
+                mi.d.press(4) # back
                 time.sleep(11) 
                 try : 
                     if mi.exist('//*[@text="文章更新中"]') : break
                 except : pass
-        d.press(3) # home
+        mi.d.press(3) # home
         print('66阅读已完毕')
     
     #趣头条
     while True:
         if video:
             #if d.serial=='d5212f2c':
-            d.session("com.jifen.qukan") # start
+            mi.d.session("com.jifen.qukan") # start
             mi.click('//*[@text="小视频"]/..')
             ci = random.randint(200, 300)
-            for i in range(ci):
+            for _ in range(ci):
                 times = random.uniform(6, 8)
                 time.sleep(times)
 # =============================================================================
@@ -64,16 +61,16 @@ def run(dev,bao=False,video=False,read=True):
 #                     print('趣阅读已完毕')
 #                     break
 # =============================================================================
-                d.swipe(300, 1500, 300, 300, 0.01)
+                mi.d.swipe(300, 1500, 300, 300, 0.01)
                 
         #刷宝
         if bao:
-            d.session("com.jm.video") # start
+            mi.d.session("com.jm.video") # start
             ci = random.randint(200, 300)
             for i in range(ci):
                 times = random.uniform(8, 20)
                 time.sleep(times)
-                d.swipe(300, 1500, 300, 300, 0.01)
+                mi.d.swipe(300, 1500, 300, 300, 0.01)
                 
         
                 
@@ -92,9 +89,8 @@ if __name__ == '__main__':
     # 创建线程
     runthread = []
     for i, ID in enumerate(dev_ID, start=1):
-        d = u2.connect(ID)
         print(f'机名:phone{i}; ID:{ID}')
-        threadObj = threading.Thread(target=run,args=[d])
+        threadObj = threading.Thread(target=run,args=[dxpath(ID)])
         threadObj.start()
         runthread.append(threadObj)
 

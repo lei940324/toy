@@ -6,8 +6,7 @@ Created on Wed Apr  8 19:20:49 2020
 """
 
 
-from appmi import dxpath
-import uiautomator2 as u2
+from appmi import mi
 import time
 import pandas as pd
 
@@ -20,9 +19,9 @@ import imageio
 class spider():
 
     def __init__(self):
-        self.d = u2.connect()
-        print(self.d.info)
-        self.mi = dxpath(self.d)
+        mi.connect()
+        self.mi = mi
+        print(self.mi.d.info)
         self.data()
 
     def data(self):
@@ -38,10 +37,10 @@ class spider():
         载入界面
 
         """
-        self.d.session("com.tencent.mm")   # 启动微信
+        self.mi.d.session("com.tencent.mm")   # 启动微信
         self.mi.click('//*[@text="发现"]/preceding-sibling::node')   # 点击发现
         self.mi.click('//*[@text="朋友圈"]')   # 点击朋友圈
-        self.d(resourceId="com.tencent.mm:id/en0").exists()   # 判断朋友圈信息是否加载
+        self.mi.d(resourceId="com.tencent.mm:id/en0").exists()   # 判断朋友圈信息是否加载
         print('朋友圈界面载入成功')
         time.sleep(2)
 
@@ -53,15 +52,13 @@ class spider():
 
         """
         while len(self.names) < num:
-            for t in self.mi.dxpath('//*[@resource-id="com.tencent.mm:id/fiw"]'):
+            for info in self.mi.xpaths('//*[@resource-id="com.tencent.mm:id/fiw"]'):
                 try:
-                    comment = self.mi.dxpath_text(
-                        t, './/*[@resource-id="com.tencent.mm:id/b8c"]')
-                    name = self.mi.dxpath_text(
-                        t, './/*[@resource-id="com.tencent.mm:id/e0n"]')
+                    comment = info.text('.//*[@resource-id="com.tencent.mm:id/b8c"]')
+                    name = info.text('.//*[@resource-id="com.tencent.mm:id/e0n"]')
 
                     # 不能是广告
-                    if comment not in self.comments and not self.mi.dxpath_exist(t, './/*[@resource-id="com.tencent.mm:id/e2"]'):
+                    if comment not in self.comments and not info.exist('.//*[@resource-id="com.tencent.mm:id/e2"]'):
                         print("抓取到{}朋友圈数据：\n{}".format
                               (name, comment))
                         self.comments.append(comment)
@@ -70,7 +67,7 @@ class spider():
                 except:
                     pass
             # 滑动
-            self.d.swipe(300, 800, 300, 300, 0.1)
+            self.mi.d.swipe(300, 800, 300, 300, 0.1)
 
     def save(self):
         """

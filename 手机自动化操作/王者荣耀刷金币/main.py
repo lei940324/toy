@@ -5,7 +5,6 @@ Created on 2020年3月26日晚
 @author: lei
 """
 from appmi import dxpath
-import uiautomator2 as u2
 import time
 import logging
 import os
@@ -22,7 +21,7 @@ class kings(threading.Thread):
 
     device_num = 0
 
-    def __init__(self, name, device, num=60, timer=98, wait=20, level=2, jinbi=56):
+    def __init__(self, name, device, num=60, timer=48, wait=20, level=2, jinbi=56):
         """
         Parameters
         ----------
@@ -44,7 +43,6 @@ class kings(threading.Thread):
         self.level = level
         self.jinbi = jinbi
 
-        self.mi = dxpath(device)
         kings.device_num += 1
 
     def run(self):
@@ -76,7 +74,7 @@ class kings(threading.Thread):
         n : 点击次数，每次间隔一秒
         """
         for i in range(n):
-            self.device.click(self.x2, self.y2)
+            self.device.d.click(self.x2, self.y2)
             time.sleep(1)
             logging.debug(f'调试信息：已点击{i+1}次')
 
@@ -84,17 +82,17 @@ class kings(threading.Thread):
         """
         第一次准备工作,获取闯关坐标与再次挑战坐标
         """
-        _, [(self.x1, self.y1)] = self.mi.ocr_click(
+        _, [(self.x1, self.y1)] = self.device.ocr_click(
             ['闯关'], picture=True, picture_name=f'{self.name}_chuangguan', shot_name=f'{self.name}_screenshot')
         logging.info(f'{self.name}闯关按钮坐标:({self.x1},{self.y1})')
-        self.x2, self.y2 = [self.device.info['displayWidth']//2,
-                            self.device.info['displayHeight']//2]  # 中心点
+        self.x2, self.y2 = [self.device.d.info['displayWidth']//2,
+                            self.device.d.info['displayHeight']//2]  # 中心点
         for _ in range(10):
             time.sleep(1)  # 等待载入画面
         self.click(self.timer)  # 随关卡不同可以更改时间
         for i in range(self.wait):
             try:
-                _, [(self.x3, self.y3)] = self.mi.ocr_click(
+                _, [(self.x3, self.y3)] = self.device.ocr_click(
                     ['再次挑战'], at_once=True, picture=True, picture_name=f'{self.name}_tiaozhan', shot_name=f'{self.name}_screenshot')
                 break
             except:
@@ -110,27 +108,27 @@ class kings(threading.Thread):
         for T in range(self.num-1):
             jinbi += self.jinbi
             for _ in range(self.wait):
-                self.device.click(self.x3, self.y3)
-                if self.mi.locatonScreen(f'{self.name}_chuangguan.png', shot_name=f'{self.name}_screenshot'):
+                self.device.d.click(self.x3, self.y3)
+                if self.device.locatonScreen(f'{self.name}_chuangguan.png', shot_name=f'{self.name}_screenshot'):
                     break  # 判定是否回到闯关界面
             time.sleep(1)
-            self.device.click(self.x1, self.y1)
+            self.device.d.click(self.x1, self.y1)
             for _ in range(10):
                 time.sleep(1)
             self.click(self.timer)
             for _ in range(self.wait):
-                if self.mi.locatonScreen(f'{self.name}_tiaozhan.png', shot_name=f'{self.name}_screenshot'):
+                if self.device.locatonScreen(f'{self.name}_tiaozhan.png', shot_name=f'{self.name}_screenshot'):
                     break  # 判定是否回到重新挑战界面
                 self.click(1)
             time.sleep(0.5)
             logging.info(f'提示:{self.name}已刷第{T+2}次，获得金币{jinbi}个')
-            self.device.click(self.x3, self.y3)
+            self.device.d.click(self.x3, self.y3)
 
 
 
 if __name__ == '__main__':
     print('程序开始运行')
-    os.chdir(r'.\截图')   # 改变当前工作目录
+    os.chdir(r'G:\研究生\自制程序\爬虫\王者荣耀刷金币')   # 改变当前工作目录
 
     # 获取设备ID
     dev = subprocess.getstatusoutput("adb devices")[1]
@@ -139,9 +137,8 @@ if __name__ == '__main__':
     # 创建线程
     threadKings = []
     for i, ID in enumerate(dev_ID, start=1):
-        d = u2.connect(ID)
         print(f'机名:phone{i}; ID:{ID}')
-        phone = kings(name=f'phone{i}', device=d)
+        phone = kings(name=f'phone{i}', device=dxpath(ID))
         phone.start()
         threadKings.append(phone)
 
