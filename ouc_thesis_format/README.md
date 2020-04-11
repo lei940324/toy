@@ -23,19 +23,19 @@ python func.py
 
 * 修改页码
 
-  <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/11/120111-367528.png" width="550">
+  <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/11/120111-367528.png" width="650">
 
-  ![image-20200411120215029](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200411120215029.png)
+  <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/11/120621-190856.png" width="250">
 
-  ![image-20200411120228864](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200411120228864.png)
+  <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/11/120633-350260.png" width="650">
 
-  ![image-20200411120238343](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200411120238343.png)
+  <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/11/120638-775111.png" width="650">
 
 * 修改页码之后，更新目录页码，更改目录格式
 
-  ![image-20200411120248873](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200411120248873.png)
+  <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/11/120647-296212.png" width="650">
 
-  ![image-20200411120256799](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200411120256799.png)
+  <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/11/120650-863927.png" width="250">
 
 
 
