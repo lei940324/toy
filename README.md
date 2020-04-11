@@ -4,10 +4,9 @@
 
 * [论文中的统计性描述生成器（GUI界面）](https://github.com/lei940324/toy/tree/master/description)：统计量自动标星
 
-* [中国海洋大学毕业论文格式调整器](https://github.com/lei940324/ouc_thesis_format)
+* [中国海洋大学毕业论文格式调整器](https://github.com/lei940324/toy/tree/master//ouc_thesis_format)
 
-* [微信小应用](https://github.com/lei940324/Application_itchat)：基于`itchat`库开发的小应用
-  
+* [微信小应用](https://github.com/lei940324/toy/tree/master/微信小应用)：基于`itchat`库开发的小应用
   * [汇总微信消息](https://github.com/lei940324/Application_itchat/tree/master/%E6%B1%87%E6%80%BB%E5%BE%AE%E4%BF%A1%E6%B6%88%E6%81%AF)
   
 * [pdf去水印](https://github.com/lei940324/toy/tree/master/pdf%E5%8E%BB%E6%B0%B4%E5%8D%B0)：将pdf转为图片，通过对比度进行处理，因此会丢失很多信息
