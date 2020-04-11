@@ -22,12 +22,12 @@
   
   * [网络爬虫入门教程](https://github.com/lei940324/spider/blob/master/网络爬虫——入门.md)
   
-  * [模板](https://github.com/lei940324/spider/tree/master/模板)：使用requests库抓取的模板
+  * [模板](https://github.com/lei940324/spider/tree/master/模板)：使用`requests`库抓取的模板
     * [单线程](https://github.com/lei940324/spider/blob/master/模板/GetUrl.py)：网址无响应，默认自动重连5次
     * [多线程](https://github.com/lei940324/spider/blob/master/模板/ThreadGetUrl.py)：依赖于单线程模板
   
   * [微博](https://github.com/lei940324/spider/tree/master/%E5%BE%AE%E5%8D%9A)
-    * [登陆微博](https://github.com/lei940324/spider/blob/master/%E5%BE%AE%E5%8D%9A/loginWeibo.py)：使用requests获取cookie信息
+    * [登陆微博](https://github.com/lei940324/spider/blob/master/%E5%BE%AE%E5%8D%9A/loginWeibo.py)：使用`requests`获取cookie信息
     * [微博高级搜索](https://github.com/lei940324/spider/tree/master/微博/微博高级搜索)：通过微博自带的高级搜索功能进行数据爬取
   * [selenium应用](https://github.com/lei940324/spider/tree/master/selenium)
     * [谷歌浏览器初始化设置](https://github.com/lei940324/spider/blob/master/selenium/chrome_init.py)
