@@ -2,19 +2,19 @@
 
 # 小玩具
 
-* [论文中的统计性描述生成器（GUI界面）](https://github.com/lei940324/toy/tree/master/description)：统计量自动标星
+* [论文中的统计性描述生成器（GUI界面）](https://github.com/lei940324/toy/tree/master/小工具/description)：统计量自动标星
 
-* [中国海洋大学毕业论文格式调整器](https://github.com/lei940324/toy/tree/master//ouc_thesis_format)
+* [中国海洋大学毕业论文格式调整器](https://github.com/lei940324/toy/tree/master/小工具/ouc_thesis_format)
 
 * [微信小应用](https://github.com/lei940324/toy/tree/master/微信小应用)：基于`itchat`库开发的小应用
   * [汇总微信消息](https://github.com/lei940324/toy/tree/master/微信小应用/汇总微信消息)
   * [拼接微信好友头像](https://github.com/lei940324/toy/tree/master/微信小应用/拼接微信好友头像)
   
-* [pdf去水印](https://github.com/lei940324/toy/tree/master/pdf%E5%8E%BB%E6%B0%B4%E5%8D%B0)：将pdf转为图片，通过对比度进行处理，因此会丢失很多信息
+* [pdf去水印](https://github.com/lei940324/toy/tree/master/小工具/pdf%E5%8E%BB%E6%B0%B4%E5%8D%B0)：将pdf转为图片，通过对比度进行处理，因此会丢失很多信息
 
-* [文本倾斜矫正](https://github.com/lei940324/toy/tree/master/文本倾斜矫正)
+* [文本倾斜矫正](https://github.com/lei940324/toy/tree/master/小工具/文本倾斜矫正)
 
-* [word套打](https://github.com/lei940324/toy/tree/master/word套打)：信息存于excel中，批量生成word文件
+* [word套打](https://github.com/lei940324/toy/tree/master/小工具/word套打)：信息存于excel中，批量生成word文件
 
 * [Quantile](https://github.com/lei940324/Quantile)：介绍分位数回归，包括分位数Granger因果检验、QVAR及脉冲响应函数
 
