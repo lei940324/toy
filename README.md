@@ -46,13 +46,11 @@
 
 # Development Tool
 
-<span>文字</span><img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" align="absmiddle"><span>文字</span>
-
 - <span>**Qt Creator**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" width="50" align="absmiddle"><span>：GUI界面可视化</span>
 
-- **PyCharm**<img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" width="50">：代码编辑器
+- <span>**PyCharm**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" width="50" align="absmiddle"><span>：代码编辑器</span>
 
+- <span>**Visual Studio Code**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/09/000635-457642.png" width="50" align="absmiddle"><span>：代码阅读器</span>
 
-* **Visual Studio Code**<img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/09/000635-457642.png" width="50">：代码阅读器
 
 
