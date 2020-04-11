@@ -17,7 +17,7 @@
 
 推荐关卡：堕落的祸源 - 稷下战场（大师）
 
-![image-20200406132137731](https://raw.githubusercontent.com/lei940324/picture/master/typora202004/06/132139-811784.png)
+<img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/06/132139-811784.png" width="500">
 
 一把可以加56金币，大约100秒左右一局，在开挂前建议你手动通关体验一下，至少自动操作可以通关，此为游戏原理。不过挂机想通关稷下战场一般需要满符文，所以如果没有达到条件，可以刷：陨落的废都 - 魔女回忆，此关卡使用纯输出英雄20秒左右可以打BOSS，50秒左右可以通关，每次重复通关可以获得奖励19金币。
 
@@ -37,7 +37,8 @@ uiautomator2库本身带有OCR识别功能，但是并没有对应的API接口�
 
 2. 手机打开王者，并将界面打开至闯关
 
-   ![image-20200406133304719](https://raw.githubusercontent.com/lei940324/picture/master/typora202004/06/133305-447174.png)
+<img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/06/133305-447174.png" width="500">
+
 
 3. 根据闯关的不同，调整`main.py`代码中`timer`参数值，默认为98秒
 
