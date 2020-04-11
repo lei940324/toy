@@ -46,7 +46,7 @@
 
 # Development Tool
 
-- **Qt Creator**<img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" width="50">：GUI界面可视化
+- **Qt Creator**<img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" width="50" style="vertical-align:middle">：GUI界面可视化
 
 - **PyCharm**<img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" width="50">：代码编辑器
 
