@@ -10,7 +10,7 @@
 
 实现朋友圈好友动态抓取，并生成词云展示
 
-![image-20200408210520162](https://raw.githubusercontent.com/lei940324/picture/master/typora202004/08/212610-630866.png)
+<img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/08/212610-630866.png" width="375">
 
 
 # 使用
