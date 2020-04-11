@@ -56,8 +56,8 @@ python main.py
 
 代码主体主要有两部分：
 
-* [func.py](https://github.com/lei940324/description/blob/master/func.py)：各统计量计算
-* [myMainWindow.py](https://github.com/lei940324/description/blob/master/myMainWindow.py)：GUI界面
+* [func.py](https://github.com/lei940324/toy/blob/master/小工具/description/func.py)：各统计量计算
+* [myMainWindow.py](https://github.com/lei940324/toy/blob/master/小工具/description/myMainWindow.py)：GUI界面
 
 
 
