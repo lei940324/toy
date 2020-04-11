@@ -2,7 +2,7 @@
 
 # 小玩具
 
-* [论文中的统计性描述生成器（GUI界面）](https://github.com/lei940324/description)：统计量自动标星
+* [论文中的统计性描述生成器（GUI界面）](https://github.com/lei940324/toy/tree/master/description)：统计量自动标星
 
 * [中国海洋大学毕业论文格式调整器](https://github.com/lei940324/ouc_thesis_format)
 
