@@ -27,5 +27,6 @@
 # ``shelve``, ``marshal``, ``anydbm``, & ``bsddb``
 # (among others).
 
-# ееЁЩнд╪Ч
+# delete
 __pycache__/
+*.a
