@@ -1,3 +1,7 @@
+<a href="https://www.python.org/downloads/"><img  src="https://img.shields.io/badge/python-3.6%2B-brightgreen"></a>
+<a href="https://github.com/pandas-dev/pandas"><img src="https://img.shields.io/badge/pandas-1.0.1-yellow"></a>
+<a href="https://github.com/python-openxml/python-docx"><img src="https://img.shields.io/badge/python--docx-0.2.4-orange"></a>
+
 # Introduction
 
 中国海洋大学毕业论文，自动修改格式、增加封面
@@ -11,14 +15,6 @@ python func.py
 ```
 
 
-
-# Requirements
-
-* python 3.6+ 
-* 需要安装第三方库：`pandas`、`docx`、`win32`
-
-
-
 # 不足
 
 由于页码与目录格式设置较复杂，运行完还需修改内容：
@@ -27,19 +23,19 @@ python func.py
 
 * 修改页码
 
-  ![image-20200330195859295](https://github.com/lei940324/ouc_thesis_format/blob/master/image/修改页码1.png)      
+  <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/11/120111-367528.png" width="550">
 
-  ![image-20200330195859295](https://github.com/lei940324/ouc_thesis_format/blob/master/image/修改页码2.png)      
+  ![image-20200411120215029](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200411120215029.png)
 
-  ![image-20200330195859295](https://github.com/lei940324/ouc_thesis_format/blob/master/image/修改页码3.png)     
+  ![image-20200411120228864](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200411120228864.png)
 
-  ![image-20200330195859295](https://github.com/lei940324/ouc_thesis_format/blob/master/image/修改页码4.png)     
+  ![image-20200411120238343](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200411120238343.png)
 
 * 修改页码之后，更新目录页码，更改目录格式
 
-  ![image-20200330195859295](https://github.com/lei940324/ouc_thesis_format/blob/master/image/目录1.png)   
+  ![image-20200411120248873](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200411120248873.png)
 
-  ![image-20200330195859295](https://github.com/lei940324/ouc_thesis_format/blob/master/image/目录2.png)
+  ![image-20200411120256799](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200411120256799.png)
 
 
 

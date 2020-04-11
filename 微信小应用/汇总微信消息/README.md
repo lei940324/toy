@@ -8,13 +8,11 @@
 
 鉴于此，开发这个小工具，帮助提高生活效率。
 
-
-
 # display
 
 因为本身没有太复杂的功能与选项，所以并没有做成GUI界面，主要通过命令行进行参数设定。
 
-<div align=center><img src= "https://github.com/lei940324/Application_itchat/blob/master/%E6%B1%87%E6%80%BB%E5%BE%AE%E4%BF%A1%E6%B6%88%E6%81%AF/image/%E5%91%BD%E4%BB%A4%E8%A1%8C.png" width="550"></div>
+<div align=center><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/11/115838-967879.png" width="550"></div>
 
 
 # Usage
