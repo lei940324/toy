@@ -9,6 +9,7 @@
 * [微信小应用](https://github.com/lei940324/toy/tree/master/微信小应用)：基于`itchat`库开发的小应用
   * [汇总微信消息](https://github.com/lei940324/toy/tree/master/微信小应用/汇总微信消息)
   * [拼接微信好友头像](https://github.com/lei940324/toy/tree/master/微信小应用/拼接微信好友头像)
+  * [分析微信好友信息](https://github.com/lei940324/toy/tree/master/微信小应用/分析微信好友信息)
   
 * [pdf去水印](https://github.com/lei940324/toy/tree/master/小工具/pdf%E5%8E%BB%E6%B0%B4%E5%8D%B0)：将pdf转为图片，通过对比度进行处理，因此会丢失很多信息
 

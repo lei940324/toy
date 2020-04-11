@@ -3,5 +3,5 @@
 
 # Introduction
 
-基于`itchat`库开发的一些小工具
+基于`itchat`库开发的一些小工具，通过扫码登陆Web网页版微信。
 
