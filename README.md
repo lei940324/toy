@@ -31,7 +31,7 @@
 
 # 📃介绍
 
-平时积累的笔记以及编写的小工具，希望大家喜欢，多多star。
+学习python时积累的笔记以及编写的小工具，希望大家喜欢，多多star。
 
 # 📣 目录
 
@@ -85,11 +85,15 @@
 
 # 😉Author
 
-中国海洋大学经济学研究生，热爱python，喜欢编一些小玩意。
+中国海洋大学经济学研究生，热爱python，喜欢编一些小玩意，有兴趣可以加我微信一起探讨。
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/181334-564739.png"  width=200 />
+</p>
 
 # 💌 捐赠
 
-开发和维护toy花费了我巨大的心力，如果你觉得项目帮助到您，请认真考虑请作者喝一杯咖啡 😄
+如果觉得项目能帮助到您，请考虑请作者喝一杯咖啡 😄
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/124306-810270.png"  width=200 />
