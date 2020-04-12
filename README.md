@@ -28,8 +28,6 @@
 
 # 📣 项目目录
 
-## 🔰toy
-
 * [小工具](https://github.com/lei940324/toy/tree/master/小工具)
   * [论文中的统计性描述生成器（GUI界面）](https://github.com/lei940324/toy/tree/master/小工具/description)：统计量自动标星
   * [毕业论文格式调整器](https://github.com/lei940324/toy/tree/master/小工具/ouc_thesis_format)
@@ -64,7 +62,7 @@
   * [王者荣耀刷金币](https://github.com/lei940324/toy/tree/master/手机自动化操作/王者荣耀刷金币)：通过图像识别增加稳定性
   * [刷66阅读+趣头条](https://github.com/lei940324/toy/tree/master/手机自动化操作/66阅读+趣头条.py)
 
-## 📝笔记
+# 📝笔记
 
 * [数据库基础](https://github.com/lei940324/toy/blob/master/笔记/SQL基本语法.md)
 * [pandas总结](https://github.com/lei940324/toy/blob/master/笔记/pandas总结.md)
@@ -78,6 +76,6 @@
 
 - <span>**Visual Studio Code**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/09/000635-457642.png" width="50" align="absmiddle"><span>：代码阅读器</span>
 
-# 😉作者
+# 😉Author
 
 中国海洋大学经济学研究生
