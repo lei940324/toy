@@ -84,5 +84,7 @@
 
 开发和维护toy花费了我巨大的心力，如果你觉得项目帮助到您，请认真考虑请作者喝一杯咖啡 😄
 
+<p align="center">
 <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/124306-810270.png"  width=200 />
+</p>
 
