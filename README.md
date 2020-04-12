@@ -87,9 +87,8 @@
 
 中国海洋大学经济学研究生，热爱python，喜欢编一些小玩意，有兴趣可以加我微信一起探讨。
 
-<p align="center">
 <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/181334-564739.png"  width=200 />
-</p>
+
 
 # 💌 捐赠
 
