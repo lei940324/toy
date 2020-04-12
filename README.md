@@ -1,22 +1,47 @@
-> 所有人都告诉你怎么活，只有自己没有搞清楚该如何活。相信自己，我们每个人都是主角
+> 所有人都告诉你怎么活，只有自己没有搞清楚该如何活。相信自己，我们每个人都是主角❤️
 
-# 小玩具
+<h1 align="center">toy</h1>
+<p align="center">
+    <em>Python ❤️    献给我亲爱的女朋友——如</em>
+</p>
+<p align="center">
+<a href="https://www.python.org/downloads/"><img  src="https://img.shields.io/badge/python-3.6%2B-brightgreen"></a>
+<a href="https://github.com/python-openxml/python-docx"><img src="https://img.shields.io/badge/python--docx-0.2.4-orange"></a>
+<a href="https://github.com/littlecodersh/ItChat"><img src="https://img.shields.io/badge/itchat-1.3.10-blue"></a>
+<a href="https://github.com/lxml/lxml"><img src="https://img.shields.io/badge/lxml-4.5.0-red"></a>
+<a href="https://github.com/matplotlib/matplotlib"><img src="https://img.shields.io/badge/matplotlib-3.1.3-blue"></a>
+</p>
+<p align="center">
+<a href="https://github.com/numpy/numpy"><img src="https://img.shields.io/badge/numpy-1.18.1-blue"></a>
+<a href="https://github.com/pandas-dev/pandas"><img src="https://img.shields.io/badge/pandas-1.0.1-yellow"></a>
+<a href="https://github.com/pyecharts/pyecharts"><img src="https://img.shields.io/badge/pyecharts-1.7.1-orange"></a>
+<a href="https://pypi.org/project/PyQt5/"><img src="https://img.shields.io/badge/pyqt5-5.10-orange"></a>
+<a href="https://github.com/psf/requests"><img src="https://img.shields.io/badge/requests-2.22.0-yellow"></a>
+</p>
+<p align="center">
+<a href="https://github.com/scipy/scipy"><img src="https://img.shields.io/badge/scipy-1.4.1-brightgreen"></a>
+<a href="https://github.com/SeleniumHQ/selenium"><img src="https://img.shields.io/badge/selenium-3.141.0-lightgrey"></a>
+<a href="https://github.com/statsmodels/statsmodels"><img src="https://img.shields.io/badge/statsmodels-0.11.0-red"></a>
+<a href="https://github.com/sympy/sympy"><img src="https://img.shields.io/badge/sympy-1.5.1-lightgrey"></a>
+<a href="https://github.com/openatx/uiautomator2"><img src="https://img.shields.io/badge/uiautomator2-2.7.1-brightgreen"></a>
+</p>
 
-* [论文中的统计性描述生成器（GUI界面）](https://github.com/lei940324/toy/tree/master/小工具/description)：统计量自动标星
+# 📣 项目目录
 
-* [中国海洋大学毕业论文格式调整器](https://github.com/lei940324/toy/tree/master/小工具/ouc_thesis_format)
+## 🔰toy
+
+* [小工具](https://github.com/lei940324/toy/tree/master/小工具)
+  * [论文中的统计性描述生成器（GUI界面）](https://github.com/lei940324/toy/tree/master/小工具/description)：统计量自动标星
+  * [毕业论文格式调整器](https://github.com/lei940324/toy/tree/master/小工具/ouc_thesis_format)
+  * [pdf去水印](https://github.com/lei940324/toy/tree/master/小工具/pdf%E5%8E%BB%E6%B0%B4%E5%8D%B0)：将pdf转为图片，通过对比度进行处理，因此会丢失很多信息
+  * [文本倾斜矫正](https://github.com/lei940324/toy/tree/master/小工具/文本倾斜矫正)
+  * [word套打](https://github.com/lei940324/toy/tree/master/小工具/word套打)：信息存于excel中，批量生成word文件
 
 * [微信小应用](https://github.com/lei940324/toy/tree/master/微信小应用)：基于`itchat`库开发的小应用
   * [汇总微信消息](https://github.com/lei940324/toy/tree/master/微信小应用/汇总微信消息)
   * [拼接微信好友头像](https://github.com/lei940324/toy/tree/master/微信小应用/拼接微信好友头像)
   * [分析微信好友信息](https://github.com/lei940324/toy/tree/master/微信小应用/分析微信好友信息)
   
-* [pdf去水印](https://github.com/lei940324/toy/tree/master/小工具/pdf%E5%8E%BB%E6%B0%B4%E5%8D%B0)：将pdf转为图片，通过对比度进行处理，因此会丢失很多信息
-
-* [文本倾斜矫正](https://github.com/lei940324/toy/tree/master/小工具/文本倾斜矫正)
-
-* [word套打](https://github.com/lei940324/toy/tree/master/小工具/word套打)：信息存于excel中，批量生成word文件
-
 * [Quantile](https://github.com/lei940324/Quantile)：介绍分位数回归，包括分位数Granger因果检验、QVAR及脉冲响应函数
 
 * [spider](https://github.com/lei940324/spider)：网络爬虫的例子
@@ -39,13 +64,13 @@
   * [王者荣耀刷金币](https://github.com/lei940324/toy/tree/master/手机自动化操作/王者荣耀刷金币)：通过图像识别增加稳定性
   * [刷66阅读+趣头条](https://github.com/lei940324/toy/tree/master/手机自动化操作/66阅读+趣头条.py)
 
-# 笔记
+## 📝笔记
 
 * [数据库基础](https://github.com/lei940324/toy/blob/master/笔记/SQL基本语法.md)
 * [pandas总结](https://github.com/lei940324/toy/blob/master/笔记/pandas总结.md)
 * [xpath](https://github.com/lei940324/toy/blob/master/笔记/xpath.ipynb)
 
-# Development Tool
+# ✨Development Tool
 
 - <span>**Qt Creator**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" width="50" align="absmiddle"><span>：GUI界面可视化</span>
 
@@ -53,5 +78,6 @@
 
 - <span>**Visual Studio Code**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/09/000635-457642.png" width="50" align="absmiddle"><span>：代码阅读器</span>
 
+# 😉作者
 
-
+中国海洋大学经济学研究生
