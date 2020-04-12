@@ -92,9 +92,12 @@
 
 # 💌 捐赠
 
+
+
 如果觉得项目能帮助到您，请考虑请作者喝一杯咖啡 😄
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/124306-810270.png"  width=200 />
-</p>
+<img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/183545-561589.png"  width=200 />
+
+<img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/183831-321249.png"  width=200 />
+
 
