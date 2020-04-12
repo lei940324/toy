@@ -1,5 +1,8 @@
 > 所有人都告诉你怎么活，只有自己没有搞清楚该如何活。相信自己，我们每个人都是主角❤️
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/125615-184630.png"  width=200/>
+</p>
 <h1 align="center">toy</h1>
 <p align="center">
     <em>Python ❤️    献给我亲爱的女朋友——如</em>
