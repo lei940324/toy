@@ -29,7 +29,11 @@
 <a href="https://github.com/openatx/uiautomator2"><img src="https://img.shields.io/badge/uiautomator2-2.7.1-brightgreen"></a>
 </p>
 
-# 📣 项目目录
+# 📃介绍
+
+平时积累的笔记以及编写的小工具，希望大家喜欢，多多star。
+
+# 📣 目录
 
 * [小工具](https://github.com/lei940324/toy/tree/master/小工具)
   * [论文中的统计性描述生成器（GUI界面）](https://github.com/lei940324/toy/tree/master/小工具/description)：统计量自动标星
