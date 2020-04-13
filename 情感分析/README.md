@@ -44,7 +44,7 @@
 3. **中文分词**
 
    * [jieba](https://github.com/fxsjy/jieba)
-   * [玻森中文语义开放平台](https://bosonnlp.com/)
+   * [玻森中文语义开放平台](https://bosonnlp.com/)           
 
    ```python
    """3. 分词处理, 这里使用jieba分词"""
