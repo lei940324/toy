@@ -72,6 +72,10 @@
 * [pandas总结](https://github.com/lei940324/toy/blob/master/笔记/pandas总结.md)
 * [xpath](https://github.com/lei940324/toy/blob/master/笔记/xpath.ipynb)
 
+# 📣其他优秀项目
+
+详情请[click这里](https://github.com/lei940324/toy/tree/master/others.md)
+
 # ✨Development Tool
 
 - <span>**Qt Creator**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" width="50" align="absmiddle"><span>：GUI界面可视化</span>
