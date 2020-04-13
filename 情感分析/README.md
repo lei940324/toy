@@ -6,7 +6,7 @@
 
 单文本情绪指数构建示意图
 
-<div align=center><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/13/152730-390512.png" width="450"></div>
+<div align=center><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/13/154213-136410.png" width="550"></div>
 
 主要分为几大步骤：
 
