@@ -4,7 +4,7 @@
 <a href="https://github.com/bashtage/arch"><img src="https://img.shields.io/badge/arch-4.13-red"></a>
 <a href="https://pypi.org/project/PyQt5/"><img src="https://img.shields.io/badge/pyqt5-5.10-orange"></a>
 
-# Introduction
+## Introduction
 
 在写论文的时候，我们经常要对各序列做描述性分析，例如下图所示：
 
@@ -14,7 +14,7 @@
 
 
 
-# display
+## display
 
 主要包括：
 
@@ -28,7 +28,7 @@
 
 
 
-# Usage
+## Usage
 
 在当前路径下的命令行输入：
 
@@ -52,7 +52,7 @@ python main.py
 
 
 
-# Code
+## Code
 
 代码主体主要有两部分：
 
@@ -61,17 +61,17 @@ python main.py
 
 
 
-# Development Tool
+## Development Tool
 
-- <span>**Qt Creator**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" width="50" align="absmiddle"><span>：GUI界面可视化</span>
+|       工具名       |     功能      |                           图标icon                           |                           官网下载                           |
+| :----------------: | :-----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|     Qt Creator     | GUI界面可视化 | <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" width="50" align="absmiddle"> | [click](http://download.qt.io/official_releases/qtcreator/)  |
+|      PyCharm       |  代码编辑器   | <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" width="50" align="absmiddle"> | [click](https://www.jetbrains.com/pycharm/download/#section=windows) |
+| Visual Studio Code |  代码阅读器   | <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/14/193013-466582.png" width="50" align="absmiddle"> |           [click](https://code.visualstudio.com/)            |
 
-- <span>**PyCharm**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" width="50" align="absmiddle"><span>：代码编辑器</span>
-
-- <span>**Visual Studio Code**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/09/000635-457642.png" width="50" align="absmiddle"><span>：代码阅读器</span>
 
 
-
-# reference
+## reference
 
 * 书籍《Python Qt GUI与数据可视化编程》
 

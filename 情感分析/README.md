@@ -4,17 +4,17 @@
 <a href="https://pypi.org/project/wordcloud/"><img src="https://img.shields.io/badge/wordcloud-1.6.0-blue"></a>
 <a href="https://github.com/matplotlib/matplotlib"><img src="https://img.shields.io/badge/matplotlib-3.1.3-blue"></a>
 
-# 介绍
+## 介绍
 
 将文本分词处理后，与情感词典匹配得分，得到情感极性分类与强度。
 
-# 原理
+## 原理
 
 单文本情绪指数构建示意图
 
 <div align=center><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/13/154213-136410.png" width="750"></div>
 
-# 代码详解
+## 代码详解
 
 主要分为以下步骤：
 
