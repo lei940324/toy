@@ -31,7 +31,15 @@
 
 ## 📃介绍
 
-学习python时积累的笔记以及编写的小工具，希望大家喜欢，多多star。
+学习python时积累的笔记以及编写的小工具。
+
+## 安装依赖库
+
+```shell
+pip install -r requirements.txt
+```
+
+
 
 ## 📣 项目目录
 

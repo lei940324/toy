@@ -1,0 +1,16 @@
+arch            # quantitative statistics 
+pyecharts       # plot
+pymysql         # sql  
+selenium        # spider
+pyautogui       # Click on the simulation
+uiautomator2    # Control of cell phone
+itchat          # wechat
+opencv_python   # image identification
+aircv           # image identification
+docx            # office
+python-docx     # office
+baidu-aip       # baidu_API
+bosonnlp        # bosen_API
+googletrans     # google_API
+
+
