@@ -91,13 +91,19 @@
 | Quantile | 介绍分位数回归，包括分位数Granger因果检验、QVAR及脉冲响应函数 |        [click](https://github.com/lei940324/Quantile)        |
 | 情感分析 | 将文本分词处理后，与情感词典匹配得分，得到情感极性分类与强度。 | [click](https://github.com/lei940324/toy/tree/master/情感分析) |
 
+
+
 # 📝笔记
 
-* [数据库基础](https://github.com/lei940324/toy/blob/master/笔记/SQL基本语法.md)
-* [pandas总结](https://github.com/lei940324/toy/blob/master/笔记/pandas总结.md)
-* [xpath](https://github.com/lei940324/toy/blob/master/笔记/xpath.ipynb)
-* [python基础](https://github.com/lei940324/toy/blob/master/笔记/python基础.md)
-* [网络爬虫](https://github.com/lei940324/toy/blob/master/笔记/网络爬虫.md)
+|     内容     |            简介            |                         Introduction                         |
+| :----------: | :------------------------: | :----------------------------------------------------------: |
+|  python基础  |  字典、列表、正则表达式等  | [click](https://github.com/lei940324/toy/blob/master/笔记/python基础.md) |
+| `pandas`总结 |   `pandas`基本与进阶操作   | [click](https://github.com/lei940324/toy/blob/master/笔记/pandas总结.md) |
+|   网络爬虫   | `requests`与`selenium`使用 | [click](https://github.com/lei940324/toy/blob/master/笔记/网络爬虫.md) |
+|   `xpath`    | `xpath`基本语法与常见问题  | [click](https://github.com/lei940324/toy/blob/master/笔记/xpath.ipynb) |
+|  数据库基础  | `sql`基本语法与`mysql`命令 | [click](https://github.com/lei940324/toy/blob/master/笔记/SQL基本语法.md) |
+
+
 
 # 📣其他优秀项目
 
