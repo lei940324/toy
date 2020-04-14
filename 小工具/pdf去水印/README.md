@@ -3,7 +3,7 @@
 <a href="https://pypi.org/project/fitz/"><img src="https://img.shields.io/badge/fitz-0.0.1.dev2-lightgrey"></a>
 <a href="https://github.com/Belval/pdf2image"><img src="https://img.shields.io/badge/pdf2image-1.12.1-yellow"></a>
 
-# 介绍
+## 介绍
 
 将pdf水印去掉，仅适用于黑白色，因为彩色会出现过度锐化现象
 
@@ -12,13 +12,13 @@
 ![image-20200406193543968](https://raw.githubusercontent.com/lei940324/picture/master/typora202004/06/193550-696399.png)
 
 
-# 实现原理
+## 实现原理
 
 1. 将pdf转为图片
 2. 将图片进行锐化处理，根据字体颜色对比去除水印
 3. 将转化的图片转为pdf
 
-# 环境配置
+## 环境配置
 
 * 安装pdf2image: pip install pdf2image
 
@@ -26,7 +26,7 @@
 
   Windows用户必须为Windows安装[poppler](http://blog.alivate.com.au/poppler-windows/)，然后将bin/文件夹添加到环境变量，并且需要重启电脑才会生效
 
-## 安装wand库
+### 安装wand库
 
 环境：win10、python3
 
@@ -55,7 +55,7 @@ with Image(filename="1.pdf",resolution=120) as img:
     img.save(filename='converted.jpeg')
 ```
 
-## 安装fitz库
+### 安装fitz库
 
 直接pip install fitz会报错
 
@@ -75,7 +75,7 @@ pip install traits-6.0.0-cp37-cp37m-win_amd64.whl
 pip install PyMuPDF
 ```
 
-# 使用
+## 使用
 
 首先根据水印深浅，调整main.py文件中文件名与value值，value默认108
 
@@ -87,7 +87,7 @@ python main.py
 
 
 
-# 颜色对比选取
+## 颜色对比选取
 
 value值越大越清晰，一般为108到130，越小越能去水印，但越不清晰
 

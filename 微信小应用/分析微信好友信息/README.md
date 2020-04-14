@@ -4,13 +4,13 @@
 <a href="https://github.com/pyecharts/pyecharts"><img src="https://img.shields.io/badge/pyecharts-1.7.1-orange"></a>
 
 
-# 介绍
+## 介绍
 
 获取微信好友信息，通过`pyecharts`库进行数据可视化
 
 <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/020915-570041.png"   width="350"><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/020747-751031.png"   width="350">
 
-# 使用
+## 使用
 
 ```
 $ python info.py
@@ -18,7 +18,7 @@ $ python info.py
 
 如需分析特定省份，需在代码内进行修改，默认山东省
 
-# Development Tool
+## Development Tool
 
 - <span>**PyCharm**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" width="50" align="absmiddle"><span>：代码编辑器</span>
 

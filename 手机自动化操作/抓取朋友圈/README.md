@@ -6,14 +6,14 @@
 <a href="https://github.com/fxsjy/jieba"><img src="https://img.shields.io/badge/jieba-0.42.1-blue"></a>
 <a href="https://github.com/matplotlib/matplotlib"><img src="https://img.shields.io/badge/matplotlib-3.1.3-blue"></a>
 
-# 介绍
+## 介绍
 
 实现朋友圈好友动态抓取，并生成词云展示
 
 <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/08/212610-630866.png" width="375">
 
 
-# 使用
+## 使用
 
 使用python-uiautomator2操控手机，只支持安卓手机，具体准备工作可以参考：[手机自动化测试（准备篇）](https://blog.csdn.net/u013289615/article/details/90480832)。
 

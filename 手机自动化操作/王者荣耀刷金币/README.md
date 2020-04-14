@@ -7,11 +7,11 @@
 
   > 这里有一点要注意的是aircv依赖于cv2库，**有个很坑的地方是**，不能直接通过pip install cv2进行安装，而应该是pip install opencv-python，就可以安装了。
 
-# 介绍
+## 介绍
 
 使用图像识别进行刷取，更加稳定，主要是提供一个图像识别应用的思路。
 
-## 关卡选取
+### 关卡选取
 
 王者荣耀的冒险模式里有个挑战模式，第一次过关可以获得比较多的金币，后面重新挑战还是会获得少量金币，这不算是bug，只要你不嫌烦手动蛮力也可以刷金币。
 
@@ -23,7 +23,7 @@
 
 测试的时候我用的英雄是：赵云，鲁班，扁鹊
 
-## 操控原理
+### 操控原理
 
 使用python-uiautomator2操控手机，只支持安卓手机，具体准备工作可以参考：[手机自动化测试（准备篇）](https://blog.csdn.net/u013289615/article/details/90480832)。
 
@@ -31,7 +31,7 @@
 
 uiautomator2库本身带有OCR识别功能，但是并没有对应的API接口，需要自己找，于是从腾讯开发者里找到了文字OCR，结果发现并没有对应的python3SDK接口，真是坑，只好自己编个程序获取数据了，具体原理不细说了，不是本文的重点，有兴趣的可以认真看看[tencentOCR.py](https://github.com/lei940324/toy/blob/master/王者荣耀刷金币/tencentOCR.py)，没兴趣的也要进入[tencentOCR.py](https://github.com/lei940324/toy/blob/master/王者荣耀刷金币/tencentOCR.py)进行参数设定，找到代码里**appid，secret_id，secret_key**自己更改一下，[腾讯AI中心](https://open.youtu.qq.com/#/open)申请一个账号，在控制台能看到这几个变量，每个账号都有专属的ID。
 
-# 使用方法
+## 使用方法
 
 1. 使用数据线连接手机，保证开发者选项已打开，uiautomator2能与手机正常连接，可以连接多台手机
 

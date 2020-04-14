@@ -2,20 +2,20 @@
 <a href="https://github.com/littlecodersh/ItChat"><img src="https://img.shields.io/badge/itchat-1.3.10-blue"></a>
 <a href="https://github.com/pandas-dev/pandas"><img src="https://img.shields.io/badge/pandas-1.0.1-yellow"></a>
 
-# Introduction
+## Introduction
 
 在微信上，我们经常需要汇总某些群体的信息。例如班长需要统计班里同学的各项信息，每个人都要给班长发信息，如果班里人数太多的话，就会非常繁琐。
 
 鉴于此，开发这个小工具，帮助提高生活效率。
 
-# display
+## display
 
 因为本身没有太复杂的功能与选项，所以并没有做成GUI界面，主要通过命令行进行参数设定。
 
 <div align=center><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/11/115838-967879.png" width="550"></div>
 
 
-# Usage
+## Usage
 
 在当前路径下的命令行输入：
 

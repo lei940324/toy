@@ -2,7 +2,7 @@
 <a href="https://github.com/pandas-dev/pandas"><img src="https://img.shields.io/badge/pandas-1.0.1-yellow"></a>
 <a href="https://github.com/python-openxml/python-docx"><img src="https://img.shields.io/badge/python--docx-0.2.4-orange"></a>
 
-# Introduction
+## Introduction
 
 中国海洋大学毕业论文，自动修改格式、增加封面
 
@@ -15,7 +15,7 @@ python func.py
 ```
 
 
-# 不足
+## 不足
 
 由于页码与目录格式设置较复杂，运行完还需修改内容：
 
@@ -39,7 +39,7 @@ python func.py
 
 
 
-# 常见问题汇总
+## 常见问题汇总
 
 * 论文里页眉是否有题目，引言之前不要有页眉，横线也不要有。
 * 封面字体最好加粗  有不加粗的  实在加粗不好看不加也没问题
