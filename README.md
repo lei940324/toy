@@ -105,7 +105,7 @@
 
 
 
-## 📣其他优秀项目
+## 📢其他优秀项目
 
 ### 热门
 
@@ -128,6 +128,15 @@
 
 
 
+## 🔧浏览器插件
+
+| 插件名            | 功能                                   |                    Introduction                     |
+| ----------------- | -------------------------------------- | :-------------------------------------------------: |
+| GitZip for Github | 可以快速从 GitHub 上快速下载文件或目录 | [click](https://github.com/GitZip/chrome-extension) |
+| Octotree          | 快速查看GitHub 上项目结构              |     [click](https://github.com/ovity/octotree)      |
+
+
+
 ## ✨Development Tool
 
 |       工具名       |     功能      |                           图标icon                           |                           官网下载                           |
@@ -138,7 +147,7 @@
 
 
 
-## 😉Author
+## 🐶Author
 
 中国海洋大学经济学研究生，热爱python，喜欢编一些小玩意，有兴趣可以加我微信一起探讨。
 
