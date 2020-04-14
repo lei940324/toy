@@ -10,7 +10,7 @@
 
 ## 小众
 
-* [spider-BaiduIndex-master](https://github.com/longxiaofei/spider-BaiduIndex/tree/master/new_spider_without_selenium)：百度指数爬虫, 可以自定义时间段抓取百度指数,非模拟浏览器操作,抓取百度指数的另一种思路
+* [spider-BaiduIndex-master](https://github.com/longxiaofei/spider-BaiduIndex/tree/master)：百度指数爬虫, 可以自定义时间段抓取百度指数,非模拟浏览器操作,抓取百度指数的另一种思路
 * [typora-plugins-win-img](https://github.com/Thobian/typora-plugins-win-img)：解决windows，typora不支持粘贴自动上传图片到服务的问题。
 * [GitToc](https://github.com/Holy-Shine/GitToc/blob/master/README_CN.md)：为你的Github仓库的Readme自动生成一个目录
 

@@ -71,10 +71,22 @@
 * [数据库基础](https://github.com/lei940324/toy/blob/master/笔记/SQL基本语法.md)
 * [pandas总结](https://github.com/lei940324/toy/blob/master/笔记/pandas总结.md)
 * [xpath](https://github.com/lei940324/toy/blob/master/笔记/xpath.ipynb)
+* [python基础](https://github.com/lei940324/toy/blob/master/笔记/python基础.md)
+* [网络爬虫](https://github.com/lei940324/toy/blob/master/笔记/网络爬虫.md)
 
 # 📣其他优秀项目
 
-详情请[click这里](https://github.com/lei940324/toy/tree/master/others.md)
+## 热门
+
+| 项目名                    | 介绍                                                         | 网址                                                         |
+| ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Standard Readme           | A standard style for README files                            | [click](https://github.com/RichardLitt/standard-readme)      |
+| python-small-examples     | Python有趣的小例子一网打尽。Python基础、Python坑点、Python字符串和正则、Python绘图、Python日期和文件、Web开发、数据科学、机器学习、深度学习、TensorFlow、Pytorch，一切都是简单易懂的小例子。 | [click](https://github.com/jackzhenguo/python-small-examples) |
+| Games                     | Some games created by python code.                           | [click](https://github.com/CharlesPikachu/Games)             |
+| HelloGitHub               | 分享 GitHub 上有趣、入门级的开源项目                         | [click](https://github.com/521xueweihan/HelloGitHub)         |
+| GitHub-Chinese-Top-Charts | GitHub中文排行榜，帮助你发现高分优秀中文项目、更高效地吸收国人的优秀经验成果；榜单每周更新一次 | [click](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts) |
+
+
 
 # ✨Development Tool
 
