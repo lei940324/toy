@@ -29,13 +29,13 @@
 <a href="https://github.com/openatx/uiautomator2"><img src="https://img.shields.io/badge/uiautomator2-2.7.1-brightgreen"></a>
 </p>
 
-# 📃介绍
+## 📃介绍
 
 学习python时积累的笔记以及编写的小工具，希望大家喜欢，多多star。
 
-# 📣 项目目录
+## 📣 项目目录
 
-## 小工具
+### 小工具
 
 |        项目名        |               功能                |                         Introduction                         |
 | ------------------ | ------------------------------- | :----------------------------------------------------------: |
@@ -45,7 +45,7 @@
 |     文本倾斜矫正     |      图片格式的倾斜文本矫正       | [click](https://github.com/lei940324/toy/tree/master/小工具/文本倾斜矫正) |
 |       word套打       | 信息存于excel中，批量生成word文件 | [click](https://github.com/lei940324/toy/tree/master/小工具/word套打) |
 
-## 微信小应用
+### 微信小应用
 
 基于`itchat`库开发的小应用
 
@@ -55,7 +55,7 @@
 | 拼接微信好友头像 | 获取微信好友头像，并进行拼接 | [click](https://github.com/lei940324/toy/tree/master/微信小应用/拼接微信好友头像) |
 | 分析微信好友信息 |    包括性别、地区分布分析    | [click](https://github.com/lei940324/toy/tree/master/微信小应用/分析微信好友信息) |
 
-## spider
+### spider
 
 网络爬虫的例子
 
@@ -74,7 +74,7 @@
 
 
 
-## 手机自动化操作
+### 手机自动化操作
 
 使用`uiautomator2`库进行手机操作，适用于`Android`手机
 
@@ -84,7 +84,7 @@
 | 王者荣耀刷金币  |          通过图像识别增加稳定性          | [click](https://github.com/lei940324/toy/tree/master/手机自动化操作/王者荣耀刷金币) |
 | 刷66阅读+趣头条 |          刷完66阅读自动刷趣头条          | [click](https://github.com/lei940324/toy/tree/master/手机自动化操作/66阅读+趣头条.py) |
 
-## 其他
+### 其他
 
 |  项目名  |                             功能                             |                         Introduction                         |
 | ------ | ---------------------------------------------------------- | :----------------------------------------------------------: |
@@ -93,7 +93,7 @@
 
 
 
-# 📝笔记
+## 📝笔记
 
 |    笔记名    |            简介            |                         Introduction                         |
 | ---------- | ------------------------ | :----------------------------------------------------------: |
@@ -105,9 +105,9 @@
 
 
 
-# 📣其他优秀项目
+## 📣其他优秀项目
 
-## 热门
+### 热门
 
 
 |          项目名           |                 功能                 |                         Introduction                         |
@@ -118,7 +118,7 @@
 |        HelloGitHub        | 分享 GitHub 上有趣、入门级的开源项目 |     [click](https://github.com/521xueweihan/HelloGitHub)     |
 | GitHub-Chinese-Top-Charts |           GitHub中文排行榜           | [click](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts) |
 
-## 小众
+### 小众
 
 |          项目名          |            功能             |                         Introduction                         |
 | ---------------------- | ------------------------- | :----------------------------------------------------------: |
@@ -128,7 +128,7 @@
 
 
 
-# ✨Development Tool
+## ✨Development Tool
 
 - <span>**Qt Creator**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" width="50" align="absmiddle"><span>：GUI界面可视化</span>
 
@@ -136,14 +136,14 @@
 
 - <span>**Visual Studio Code**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/09/000635-457642.png" width="50" align="absmiddle"><span>：代码阅读器</span>
 
-# 😉Author
+## 😉Author
 
 中国海洋大学经济学研究生，热爱python，喜欢编一些小玩意，有兴趣可以加我微信一起探讨。
 
 <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/181334-564739.png"  width=200 />
 
 
-# 💌 捐赠
+## 💌 捐赠
 
 如果觉得项目能帮助到您，请考虑请作者喝一杯咖啡 😄
 
