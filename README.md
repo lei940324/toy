@@ -45,6 +45,16 @@
 |     文本倾斜矫正     |      图片格式的倾斜文本矫正       | [click](https://github.com/lei940324/toy/tree/master/小工具/文本倾斜矫正) |
 |       word套打       | 信息存于excel中，批量生成word文件 | [click](https://github.com/lei940324/toy/tree/master/小工具/word套打) |
 
+## 微信小应用
+
+基于`itchat`库开发的小应用
+
+|      项目名      |             功能             |                         Introduction                         |
+| :--------------: | :--------------------------: | :----------------------------------------------------------: |
+|   汇总微信消息   |      汇总某些群体的信息      | [click](https://github.com/lei940324/toy/tree/master/微信小应用/汇总微信消息) |
+| 拼接微信好友头像 | 获取微信好友头像，并进行拼接 | [click](https://github.com/lei940324/toy/tree/master/微信小应用/拼接微信好友头像) |
+| 分析微信好友信息 |    包括性别、地区分布分析    | [click](https://github.com/lei940324/toy/tree/master/微信小应用/分析微信好友信息) |
+
 
 
 * [小工具](https://github.com/lei940324/toy/tree/master/小工具)
