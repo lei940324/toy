@@ -33,7 +33,7 @@
 
 学习python时积累的笔记以及编写的小工具，希望大家喜欢，多多star。
 
-# 📣 目录
+# 📣 项目目录
 
 ## 小工具
 
@@ -84,8 +84,12 @@
 | 王者荣耀刷金币  |          通过图像识别增加稳定性          | [click](https://github.com/lei940324/toy/tree/master/手机自动化操作/王者荣耀刷金币) |
 | 刷66阅读+趣头条 |          刷完66阅读自动刷趣头条          | [click](https://github.com/lei940324/toy/tree/master/手机自动化操作/66阅读+趣头条.py) |
 
-* [Quantile](https://github.com/lei940324/Quantile)：介绍分位数回归，包括分位数Granger因果检验、QVAR及脉冲响应函数
-* [情感分析](https://github.com/lei940324/toy/tree/master/情感分析)：将文本分词处理后，与情感词典匹配得分，得到情感极性分类与强度。
+## 其他
+
+|  项目名  |                             功能                             |                         Introduction                         |
+| :------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| Quantile | 介绍分位数回归，包括分位数Granger因果检验、QVAR及脉冲响应函数 |        [click](https://github.com/lei940324/Quantile)        |
+| 情感分析 | 将文本分词处理后，与情感词典匹配得分，得到情感极性分类与强度。 | [click](https://github.com/lei940324/toy/tree/master/情感分析) |
 
 # 📝笔记
 
