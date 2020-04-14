@@ -95,12 +95,12 @@
 
 # 📝笔记
 
-|     内容     |            简介            |                         Introduction                         |
+|    笔记名    |            简介            |                         Introduction                         |
 | :----------: | :------------------------: | :----------------------------------------------------------: |
 |  python基础  |  字典、列表、正则表达式等  | [click](https://github.com/lei940324/toy/blob/master/笔记/python基础.md) |
 | `pandas`总结 |   `pandas`基本与进阶操作   | [click](https://github.com/lei940324/toy/blob/master/笔记/pandas总结.md) |
 |   网络爬虫   | `requests`与`selenium`使用 | [click](https://github.com/lei940324/toy/blob/master/笔记/网络爬虫.md) |
-|   `xpath`    | `xpath`基本语法与常见问题  | [click](https://github.com/lei940324/toy/blob/master/笔记/xpath.ipynb) |
+|   `xpath`    | `xpath`基本语法与常见问题  | [click](https://nbviewer.jupyter.org/github/lei940324/toy/blob/master/%E7%AC%94%E8%AE%B0/xpath.ipynb) |
 |  数据库基础  | `sql`基本语法与`mysql`命令 | [click](https://github.com/lei940324/toy/blob/master/笔记/SQL基本语法.md) |
 
 
