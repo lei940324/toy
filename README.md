@@ -79,13 +79,21 @@
 ## 热门
 
 
-| 项目名                    | 介绍                                 | Introduction                                                 |
-| ------------------------- | ------------------------------------ | ------------------------------------------------------------ |
-| Standard Readme           | A standard style for README files    | [click](https://github.com/RichardLitt/standard-readme)      |
-| python-small-examples     | Python有趣的小例子一网打尽。         | [click](https://github.com/jackzhenguo/python-small-examples) |
-| Games                     | Some games created by python code.   | [click](https://github.com/CharlesPikachu/Games)             |
-| HelloGitHub               | 分享 GitHub 上有趣、入门级的开源项目 | [click](https://github.com/521xueweihan/HelloGitHub)         |
-| GitHub-Chinese-Top-Charts | GitHub中文排行榜                     | [click](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts) |
+|          项目名           |                 功能                 |                         Introduction                         |
+| :-----------------------: | :----------------------------------: | :----------------------------------------------------------: |
+|      Standard Readme      |  A standard style for README files   |   [click](https://github.com/RichardLitt/standard-readme)    |
+|   python-small-examples   |     Python有趣的小例子一网打尽。     | [click](https://github.com/jackzhenguo/python-small-examples) |
+|           Games           |  Some games created by python code.  |       [click](https://github.com/CharlesPikachu/Games)       |
+|        HelloGitHub        | 分享 GitHub 上有趣、入门级的开源项目 |     [click](https://github.com/521xueweihan/HelloGitHub)     |
+| GitHub-Chinese-Top-Charts |           GitHub中文排行榜           | [click](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts) |
+
+## 小众
+
+|          项目名          |            功能             |                         Introduction                         |
+| :----------------------: | :-------------------------: | :----------------------------------------------------------: |
+| spider-BaiduIndex-master |        百度指数爬虫         | [click](https://github.com/longxiaofei/spider-BaiduIndex/tree/master) |
+|  typora-plugins-win-img  | windows下typora自动上传图片 |  [click](https://github.com/Thobian/typora-plugins-win-img)  |
+|          GitToc          |     Readme自动生成目录      | [click](https://github.com/Holy-Shine/GitToc/blob/master/README_CN.md) |
 
 
 
