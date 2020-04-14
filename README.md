@@ -78,20 +78,8 @@
 
 ## 热门
 
-<style>
-table th:first-of-type {
-    width: 4cm;
-}
-table th:nth-of-type(2) {
-    width: 150pt;
-}
-table th:nth-of-type(3) {
-    width: 8em;
-}
-</style>
 
-
-| 项目名                    | 介绍                                 | 网址                                                         |
+| 项目名                    | 介绍                                 | Introduction                                                 |
 | ------------------------- | ------------------------------------ | ------------------------------------------------------------ |
 | Standard Readme           | A standard style for README files    | [click](https://github.com/RichardLitt/standard-readme)      |
 | python-small-examples     | Python有趣的小例子一网打尽。         | [click](https://github.com/jackzhenguo/python-small-examples) |
