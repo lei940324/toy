@@ -130,11 +130,11 @@
 
 ## ✨Development Tool
 
-| 工具名             | 功能          |                           图标icon                           |
-| ------------------ | ------------- | :----------------------------------------------------------: |
-| Qt Creator         | GUI界面可视化 | <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" width="50" align="absmiddle"> |
-| PyCharm            | 代码编辑器    | <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" width="50" align="absmiddle"> |
-| Visual Studio Code | 代码阅读器    | <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/09/000635-457642.png" width="50" align="absmiddle"> |
+| 工具名             | 功能          |                           图标icon                           |                           官网下载                           |
+| ------------------ | ------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| Qt Creator         | GUI界面可视化 | <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" width="50" align="absmiddle"> | [click](http://download.qt.io/official_releases/qtcreator/)  |
+| PyCharm            | 代码编辑器    | <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" width="50" align="absmiddle"> | [click](https://www.jetbrains.com/pycharm/download/#section=windows) |
+| Visual Studio Code | 代码阅读器    | <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/14/193013-466582.png" width="50" align="absmiddle"> |           [click](https://code.visualstudio.com/)            |
 
 
 
