@@ -171,6 +171,6 @@ pip install -r requirements.txt
 
 
 
-![img](https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200416143453.png)
+<div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200416143933.png" width="450"></div>
 
 的范德萨发
