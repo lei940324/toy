@@ -125,6 +125,7 @@ pip install -r requirements.txt
 |           Games           |  Some games created by python code.  |       [click](https://github.com/CharlesPikachu/Games)       |
 |        HelloGitHub        | 分享 GitHub 上有趣、入门级的开源项目 |     [click](https://github.com/521xueweihan/HelloGitHub)     |
 | GitHub-Chinese-Top-Charts |           GitHub中文排行榜           | [click](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts) |
+| Python-100-Days | Python - 100天从新手到大师 | [click](https://github.com/jackfrued/Python-100-Days) |
 
 ### 小众
 
@@ -169,3 +170,7 @@ pip install -r requirements.txt
 <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/183545-561589.png"  width=200 />&#8195;<img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/183831-321249.png"  width=200 />
 
 
+
+![img](https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200416143453.png)
+
+的范德萨发
