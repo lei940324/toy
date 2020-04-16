@@ -168,9 +168,3 @@ pip install -r requirements.txt
 如果觉得项目能帮助到您，请考虑请作者喝一杯咖啡 😄
 
 <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/183545-561589.png"  width=200 />&#8195;<img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/183831-321249.png"  width=200 />
-
-
-
-<div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200416143933.png" width="450"></div>
-
-的范德萨发
