@@ -127,7 +127,7 @@ pip install -r requirements.txt
 |   `xpath`    | `xpath`基本语法与常见问题  | [click](https://nbviewer.jupyter.org/github/lei940324/toy/blob/master/%E7%AC%94%E8%AE%B0/xpath.ipynb) |
 |  数据库基础  | `sql`基本语法与`mysql`命令 | [click](https://github.com/lei940324/toy/blob/master/笔记/SQL基本语法.md) |
 
-
+&emsp;
 
 ## <span id="head10"> 📢其他优秀项目</span>
 
@@ -151,7 +151,7 @@ pip install -r requirements.txt
 |  typora-plugins-win-img  | windows下typora自动上传图片 |  [click](https://github.com/Thobian/typora-plugins-win-img)  |
 |          GitToc          |     Readme自动生成目录      | [click](https://github.com/Holy-Shine/GitToc/blob/master/README_CN.md) |
 
-
+&emsp;
 
 ## <span id="head13"> 🔧浏览器插件</span>
 
@@ -160,7 +160,7 @@ pip install -r requirements.txt
 | GitZip for Github | 可以快速从 GitHub 上快速下载文件或目录 | [click](https://github.com/GitZip/chrome-extension) |
 | Octotree          | 快速查看GitHub 上项目结构              |     [click](https://github.com/ovity/octotree)      |
 
-
+&emsp;
 
 ## <span id="head14">✨Development Tool</span>
 
@@ -170,13 +170,15 @@ pip install -r requirements.txt
 |      PyCharm       |  代码编辑器   | <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" width="50" align="absmiddle"> | [click](https://www.jetbrains.com/pycharm/download/#section=windows) |
 | Visual Studio Code |  代码阅读器   | <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/14/193013-466582.png" width="50" align="absmiddle"> |           [click](https://code.visualstudio.com/)            |
 
-
+&emsp;
 
 ## <span id="head15"> 🐶Author</span>
 
 中国海洋大学经济学研究生，热爱python，喜欢编一些小玩意，有兴趣可以加我微信一起探讨。
 
 <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/181334-564739.png"  width=200 />
+
+&emsp;
 
 
 ## <span id="head16">💌 捐赠</span>
