@@ -29,11 +29,11 @@
 <a href="https://github.com/openatx/uiautomator2"><img src="https://img.shields.io/badge/uiautomator2-2.7.1-brightgreen"></a>
 </p>
 
-## <span id="head1"> 📃介绍</span>
+### <span id="head1"> 📃介绍</span>
 
 学习python时积累的笔记以及编写的小工具。
 
-## <span id="head2"> 🔨安装依赖库</span>
+### <span id="head2"> 🔨安装依赖库</span>
 
 ```shell
 pip install -r requirements.txt
@@ -53,9 +53,9 @@ pip install -r requirements.txt
   - [ 小众](#head12)
 - [ 🔧浏览器插件](#head13)
 
-## <span id="head3">📣 玩具</span>
+### <span id="head3">📣 玩具</span>
 
-### <span id="head4"> 小工具</span>
+#### <span id="head4"> 小工具</span>
 
 |        项目名        |               功能                |                         Introduction                         |
 | ------------------ | ------------------------------- | :----------------------------------------------------------: |
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 |     文本倾斜矫正     |      图片格式的倾斜文本矫正       | [click](https://github.com/lei940324/toy/tree/master/小工具/文本倾斜矫正) |
 |       word套打       | 信息存于excel中，批量生成word文件 | [click](https://github.com/lei940324/toy/tree/master/小工具/word套打) |
 
-### <span id="head5"> 微信小应用</span>
+#### <span id="head5"> 微信小应用</span>
 
 基于`itchat`库开发的小应用
 
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 | 拼接微信好友头像 | 获取微信好友头像，并进行拼接 | [click](https://github.com/lei940324/toy/tree/master/微信小应用/拼接微信好友头像) |
 | 分析微信好友信息 |    包括性别、地区分布分析    | [click](https://github.com/lei940324/toy/tree/master/微信小应用/分析微信好友信息) |
 
-### <span id="head6"> spider</span>
+#### <span id="head6"> spider</span>
 
 网络爬虫的例子
 
@@ -94,7 +94,7 @@ pip install -r requirements.txt
 
 
 
-### <span id="head7"> 手机自动化操作</span>
+#### <span id="head7"> 手机自动化操作</span>
 
 使用`uiautomator2`库进行手机操作，适用于`Android`手机
 
@@ -104,7 +104,7 @@ pip install -r requirements.txt
 | 王者荣耀刷金币  |          通过图像识别增加稳定性          | [click](https://github.com/lei940324/toy/tree/master/手机自动化操作/王者荣耀刷金币) |
 | 刷66阅读+趣头条 |          刷完66阅读自动刷趣头条          | [click](https://github.com/lei940324/toy/tree/master/手机自动化操作/66阅读+趣头条.py) |
 
-### <span id="head8"> 其他</span>
+#### <span id="head8"> 其他</span>
 
 |  项目名  |                             功能                             |                         Introduction                         |
 | ------ | ---------------------------------------------------------- | :----------------------------------------------------------: |
@@ -113,7 +113,7 @@ pip install -r requirements.txt
 
 
 
-## <span id="head9"> 📝笔记</span>
+### <span id="head9"> 📝笔记</span>
 
 |    笔记名    |            简介            |                         Introduction                         |
 | ---------- | ------------------------ | :----------------------------------------------------------: |
@@ -125,9 +125,9 @@ pip install -r requirements.txt
 
 
 
-## <span id="head10"> 📢其他优秀项目</span>
+### <span id="head10"> 📢其他优秀项目</span>
 
-### <span id="head11"> 热门</span>
+#### <span id="head11"> 热门</span>
 
 
 |          项目名           |                 功能                 |                         Introduction                         |
@@ -139,7 +139,7 @@ pip install -r requirements.txt
 | GitHub-Chinese-Top-Charts |           GitHub中文排行榜           | [click](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts) |
 | Python-100-Days | Python - 100天从新手到大师 | [click](https://github.com/jackfrued/Python-100-Days) |
 
-### <span id="head12"> 小众</span>
+#### <span id="head12"> 小众</span>
 
 |          项目名          |            功能             |                         Introduction                         |
 | ---------------------- | ------------------------- | :----------------------------------------------------------: |
@@ -149,7 +149,7 @@ pip install -r requirements.txt
 
 
 
-## <span id="head13"> 🔧浏览器插件</span>
+### <span id="head13"> 🔧浏览器插件</span>
 
 | 插件名            | 功能                                   |                    Introduction                     |
 | ----------------- | -------------------------------------- | :-------------------------------------------------: |
@@ -158,7 +158,7 @@ pip install -r requirements.txt
 
 
 
-## <span id="head14">✨Development Tool</span>
+### <span id="head14">✨Development Tool</span>
 
 |       工具名       |     功能      |                           图标icon                           |                           官网下载                           |
 | :----------------: | :-----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -168,14 +168,14 @@ pip install -r requirements.txt
 
 
 
-## <span id="head15"> 🐶Author</span>
+### <span id="head15"> 🐶Author</span>
 
 中国海洋大学经济学研究生，热爱python，喜欢编一些小玩意，有兴趣可以加我微信一起探讨。
 
 <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/181334-564739.png"  width=200 />
 
 
-## <span id="head16">💌 捐赠</span>
+### <span id="head16">💌 捐赠</span>
 
 如果觉得项目能帮助到您，请考虑请作者喝一杯咖啡 😄
 
