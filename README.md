@@ -105,6 +105,7 @@ pip install -r requirements.txt
 
 |  项目名  |                             功能                             |                         Introduction                         |
 | ------ | ---------------------------------------------------------- | :----------------------------------------------------------: |
+| econometrics | 陈强高级计量经济学笔记 | [click](https://github.com/lei940324/econometrics) |
 | Quantile | 介绍分位数回归，包括分位数Granger因果检验、QVAR及脉冲响应函数 |        [click](https://github.com/lei940324/Quantile)        |
 | 情感分析 | 将文本分词处理后，与情感词典匹配得分，得到情感极性分类与强度。 | [click](https://github.com/lei940324/toy/tree/master/情感分析) |
 
@@ -114,6 +115,7 @@ pip install -r requirements.txt
 
 |    笔记名    |            简介            |                         Introduction                         |
 | ---------- | ------------------------ | :----------------------------------------------------------: |
+| 编程之道 | 代码风格、编程之谈、经验分享 | [click](https://github.com/lei940324/toy/blob/master/笔记/编程之道.md) |
 |  python基础  |  字典、列表、正则表达式等  | [click](https://github.com/lei940324/toy/blob/master/笔记/python基础.md) |
 | `pandas`总结 |   `pandas`基本与进阶操作   | [click](https://github.com/lei940324/toy/blob/master/笔记/pandas总结.md) |
 |   网络爬虫   | `requests`与`selenium`使用 | [click](https://github.com/lei940324/toy/blob/master/笔记/网络爬虫.md) |
