@@ -44,7 +44,7 @@ camo.githubusercontent.com
 
 **解决方法一：**
 
-使用网站：https://nbviewer.jupyter.org/，文本框内输入项目文件地址打开即可。
+使用网站：https://nbviewer.jupyter.org/ ，文本框内输入项目文件地址打开即可。
 
 <div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428131937.png" width="750"></div>
 
