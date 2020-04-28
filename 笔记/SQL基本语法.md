@@ -1,4 +1,4 @@
-# SQL基本语法
+## SQL基本语法
 
 * 查看数据库：`SHOW DATABASES；`
 * 创建数据库：`CREATE DATEBASE 数据库名称；`
@@ -9,9 +9,9 @@
 * 查看数据：`SELECT * FROM 表名称；`
 * 更新数据：`UPDATE 表名称 SET 列名1=新数据1，列名2=新数据2 WHERE 某列=某数据；`
 
-# MySQL
+## MySQL
 
-## 增删改查操作
+**增删改查操作**
 
 ```python
 # -*- coding: utf-8 -*-
