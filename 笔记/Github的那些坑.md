@@ -56,13 +56,13 @@ camo.githubusercontent.com
 
 ## star 项目没有书签管理
 
-当star 项目过多时，不易查找某项目，可以通过第三方网站：https://app.astralapp.com/auth，登陆授权后进行书签管理。
+当star 项目过多时，不易查找某项目，可以通过第三方网站：https://app.astralapp.com/auth ，登陆授权后进行书签管理。
 
 
 
 ## Github 项目下载过慢
 
-使用网址：https://g.widora.cn/，复制项目链接进行下载。
+使用网址：https://g.widora.cn/ ，复制项目链接进行下载。
 
 <div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428132725.png" width="650" ></div>
 
@@ -119,7 +119,7 @@ Github 上代码更新迭代的频率还是蛮快的，每次更新要么就是�
 
    <div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428135731.png" width="550" ></div>
 
-3. 打开 GitHub 上的项目，在需要下载的文件或者文件夹空白处双击鼠标，这时该文件或文件夹前就会出现一个钩，表示已经选择，并且在浏览器右下角还会出现一个下载按钮。
+3. 打开 GitHub 上的项目，在需要下载的文件或者文件夹空白处双击鼠标，这时该文件或文件夹前就会出现一个勾，表示已经选择，并且在浏览器右下角还会出现一个下载按钮。
 
    <div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428135520.png"  ></div>
 
@@ -265,7 +265,7 @@ Github 不支持 `html` 的部分语法，不支持公式显示，且加粗内�
 
 <div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428144618.png" ></div>
 
-原来在网址：https://shields.io/category/build，使用 `html `语法插入 `markdown`
+原来在网址：https://shields.io/category/build ，使用 `html `语法插入 `markdown`
 
 ```
 <a href="https://www.python.org/downloads/"><img  src="https://img.shields.io/badge/python-3.6%2B-brightgreen"></a>
