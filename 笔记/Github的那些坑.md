@@ -278,7 +278,8 @@ PicGo 的自定义链接设置为：
 
 ### <span id="head22"> 语法兼容</span>
 
-Github 不支持 `html` 的部分语法，不支持公式显示，且加粗内容中有冒号时，在 Github 中会渲染失败，例如：  `** word:**`。
+* Github 不支持 `html` 的部分语法，不支持公式显示，且加粗内容中有冒号时，在 Github 中会渲染失败，例如：  `** word:**`。
+* 不支持目录，可以使用该项目：<https://github.com/Holy-Shine/GitToc/blob/master/README_CN.md>，为你的 Github 仓库的 Readme.md 自动生成一个目录，转换后的目录支持页内跳转。
 
 > 若 README.md 文件中含有较多图片和公式，建议将主要内容放入博客或者自己搭建的网站内
 
