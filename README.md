@@ -115,7 +115,7 @@ pip install -r requirements.txt
 
 |    笔记名    |            简介            |                         Introduction                         |
 | ---------- | ------------------------ | :----------------------------------------------------------: |
-| Github 的那些坑 | 使用 Github 时遇到的坑 | [click](https://github.com/lei940324/toy/blob/master/笔记/Github 的那些坑.md) |
+| Github 的那些坑 | 使用 Github 时遇到的坑 | [click](https://github.com/lei940324/toy/blob/master/笔记/Github的那些坑.md) |
 | 编程之道 | 代码风格、编程之谈、经验分享 | [click](https://github.com/lei940324/toy/blob/master/笔记/编程之道.md) |
 |  python基础  |  字典、列表、正则表达式等  | [click](https://github.com/lei940324/toy/blob/master/笔记/python基础.md) |
 | `pandas`总结 |   `pandas`基本与进阶操作   | [click](https://github.com/lei940324/toy/blob/master/笔记/pandas总结.md) |
