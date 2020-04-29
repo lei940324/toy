@@ -42,9 +42,9 @@ camo.githubusercontent.com
 
 这里以`www.github.com`为例进行查询，`IP`地址为`140.82.114.3`
 
-<div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428130414.png" width="550" ></div>
+<div align=center><img src="http://lei940324.xyz/img/20200428130414.png" width="550" ></div>
 
-<div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428130756.png" width="350" ></div>
+<div align=center><img src="http://lei940324.xyz/img/20200428130756.png" width="350" ></div>
 
 > 注意，`IP`地址可能几个月变化一次，如果发现图片加载不成功，可以继续查询修改
 
@@ -69,7 +69,7 @@ camo.githubusercontent.com
 
 使用网站：<https://nbviewer.jupyter.org/> ，文本框内输入项目文件地址打开即可。
 
-<div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428131937.png" width="750"></div>
+<div align=center><img src="http://lei940324.xyz/img/20200428131937.png" width="750"></div>
 
 **解决方法二：**
 
@@ -87,7 +87,7 @@ camo.githubusercontent.com
 
 使用网址：<https://g.widora.cn/> ，复制项目链接进行下载。
 
-<div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428132725.png" width="650" ></div>
+<div align=center><img src="http://lei940324.xyz/img/20200428132725.png" width="650" ></div>
 
 
 
@@ -113,7 +113,7 @@ Octotree 是一款可以使你在 github 查看项目时可以清晰明了的看
 
 2. 添加成功以后打开 github，在项目左上侧有一个三角收缩符号，点击三角符号，即可看到项目结构图以及具体代码
 
-<div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428134324.png"></div>
+<div align=center><img src="http://lei940324.xyz/img/20200428134324.png"></div>
 
 
 
@@ -138,17 +138,17 @@ Github 上代码更新迭代的频率还是蛮快的，每次更新要么就是�
 
 2. 安装 GitZip for github 后，点击图标进行 Github 授权
 
-<div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428135641.png" width="350" ></div>
+<div align=center><img src="http://lei940324.xyz/img/20200428135641.png" width="350" ></div>
 
-<div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428135731.png" width="550" ></div>
+<div align=center><img src="http://lei940324.xyz/img/20200428135731.png" width="550" ></div>
 
 3. 打开 GitHub 上的项目，在需要下载的文件或者文件夹空白处双击鼠标，这时该文件或文件夹前就会出现一个勾，表示已经选择，并且在浏览器右下角还会出现一个下载按钮。
 
-<div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428135520.png"  ></div>
+<div align=center><img src="http://lei940324.xyz/img/20200428135520.png"  ></div>
 
 4. 点击下载按钮后，GitZip for github 会自动向服务器进行请求，将你需要的文件盒文件夹进行下包，下载到浏览器的默认下载文件夹处。
 
-<div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428140646.png" width="350" ></div>
+<div align=center><img src="http://lei940324.xyz/img/20200428140646.png" width="350" ></div>
 
 5. 而如果下载时提示次数用完，则是扩展中的 API 次数用完了。你可以重复步骤2获取 API 次数
 
@@ -162,7 +162,7 @@ Github 上代码更新迭代的频率还是蛮快的，每次更新要么就是�
 
 进入 GitHub，找一个项目，点开一个文件，在工具栏里会看到多了一个 View File 的按钮，点击此按钮，如下图：
 
-<div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428141534.png" width="650" ></div>
+<div align=center><img src="http://lei940324.xyz/img/20200428141534.png" width="650" ></div>
 
 这样我们就可利用 Sourcegraph 很方便地查看代码了，而且项目结构也非常清晰。
 
@@ -172,11 +172,11 @@ Github 上代码更新迭代的频率还是蛮快的，每次更新要么就是�
 
 本来写的 python 项目，结果系统自动识别为别的语言
 
-<div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428142005.png" width="450" ></div>
+<div align=center><img src="http://lei940324.xyz/img/20200428142005.png" width="450" ></div>
 
 需要在项目中加入`.gitattributes`文件
 
-<div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428142130.png" width="750" ></div>
+<div align=center><img src="http://lei940324.xyz/img/20200428142130.png" width="750" ></div>
 
 各语言模板可以参考：<https://github.com/alexkaratarakis/gitattributes>
 
@@ -216,7 +216,7 @@ Github 上代码更新迭代的频率还是蛮快的，每次更新要么就是�
 
 在Git项目中定义 `.gitignore` 文件
 
-<div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428143321.png" width="750" ></div>
+<div align=center><img src="http://lei940324.xyz/img/20200428143321.png" width="750" ></div>
 
 这种方式通过在项目的某个文件夹下定义 `.gitignore` 文件，在该文件中定义相应的忽略规则，来管理当前文件夹下的文件的Git提交行为。
 
@@ -287,7 +287,7 @@ PicGo 的自定义链接设置为：
 
 经常有疑问别人项目里的图标哪里设计的
 
-<div align=center><img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200428144618.png" ></div>
+<div align=center><img src="http://lei940324.xyz/img/20200428144618.png" ></div>
 
 原来在网址：<https://shields.io/category/build> ，使用 `html `语法插入 `markdown`
 
