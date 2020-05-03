@@ -41,11 +41,18 @@ pip install -r requirements.txt
 
 &emsp;
 
-# 目录
+## 目录
 
 - [玩具](#head3)
+   - [小工具](#head4)
+   - [微信小应用](#head5)
+   - [spider](#head6)
+   - [手机自动化](#head7)
+   - [其他](#head8)
 - [笔记](#head9)
 - [其他优秀项目](#head10)
+   - [热门](#head11)
+   - [小众](#head12)
 - [浏览器插件](#head13)
 
 &emsp;
