@@ -49,9 +49,11 @@ pip install -r requirements.txt
 	- [spider](#head7)
 	- [手机自动化操作](#head8)
 	- [其他](#head9)
+	
 - [📝 笔记](#head10)
 	- [ Git](#head11)
 	- [ 基础](#head12)
+	
 - [ 📢 star 项目](#head13)
 	- [ 规范指南](#head14)
 	- [ 排名索引](#head15)
@@ -61,10 +63,15 @@ pip install -r requirements.txt
 	- [ 爬虫](#head19)
 	- [ 第三方库](#head20)
 	- [ icons](#head21)
+	
 - [✨ Development Tool](#head22)
+
 - [🐶 Author](#head23)
+
 - [💌 捐赠](#head24)
+
 - [📍 License](#head25)
+
 &emsp;
 
 ## <span id="head4">📣 玩具</span>
@@ -123,8 +130,6 @@ pip install -r requirements.txt
 | econometrics | 陈强高级计量经济学笔记 | [click](https://github.com/lei940324/econometrics) |
 | Quantile | 介绍分位数回归，包括分位数Granger因果检验、QVAR及脉冲响应函数 |        [click](https://github.com/lei940324/Quantile)        |
 | 情感分析 | 将文本分词处理后，与情感词典匹配得分，得到情感极性分类与强度。 | [click](https://github.com/lei940324/toy/tree/master/情感分析) |
-
-&emsp;
 
 ## <span id="head10"> 📝 笔记</span>
 
@@ -225,16 +230,12 @@ pip install -r requirements.txt
 
 <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/181334-564739.png"  width=200 />
 
-&emsp;
-
 
 ## <span id="head24">💌 捐赠</span>
 
 如果觉得项目能帮助到您，请考虑请作者喝一杯咖啡 😄
 
 <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/183545-561589.png"  width=200 />&#8195;<img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/183831-321249.png"  width=200 />
-
-
 
 ## <span id="head25">📍 License</span>
 
