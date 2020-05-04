@@ -141,7 +141,7 @@ pip install -r requirements.txt
 * [`xpath`入门](https://nbviewer.jupyter.org/github/lei940324/toy/blob/master/笔记/python/xpath.ipynb)：`xpath`基本语法与常见问题
 * [数据库基础](https://github.com/lei940324/toy/blob/master/笔记/python/SQL基本语法.md)：`sql`基本语法与`mysql`命令
 * [搭建个人网站](https://github.com/lei940324/toy/blob/master/笔记/python/搭建网站/搭建个人网站.md)：使用阿里云服务器（Windows Server）+ `Django` + `apache`
-* [IDE优劣对比](https://github.com/lei940324/toy/blob/master/笔记/python/搭建网站/IDE优劣对比.md)：对比 python 常见IDE，包括 spyder、PyCharm、Jupyter、Vscode。
+* [IDE优劣对比](https://github.com/lei940324/toy/blob/master/笔记/python/IDE优劣对比.md)：对比 python 常见IDE，包括 spyder、PyCharm、Jupyter、Vscode。
 &emsp;
 
 ## <span id="head13"> 📢 star 项目</span>
