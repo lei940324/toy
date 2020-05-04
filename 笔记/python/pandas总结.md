@@ -681,7 +681,19 @@ fig.savefig('plot.png')
 df.plot(x='A',y='B',kind='line') # 制定x，y坐标
 ```
 
-![image-20200408233153296](https://raw.githubusercontent.com/lei940324/picture/master/typora202004/08/233156-881574.png)
+| 参数    | 描述                                   |
+| ------- | -------------------------------------- |
+| line    | line plot（默认）折线图                |
+| bar     | vertical bar plot垂直条形图            |
+| barh    | horizontal bar plot 水平条形图         |
+| hist    | histogram直方图                        |
+| box     | boxplot 箱线图                         |
+| kde     | Kernel Density Estimation plot核密度图 |
+| density | same as kde 核密度图                   |
+| area    | area plot面积图                        |
+| pie     | pie plot 饼图                          |
+| scatter | scatter plot散点图                     |
+| hexbin  | hexbin plot六边形图                    |
 
 ## <span id="head43"> 进阶操作</span>
 
