@@ -72,84 +72,72 @@ pip install -r requirements.txt
 
 ### <span id="head5"> 小工具</span>
 
-* [论文统计性描述生成器](https://github.com/lei940324/toy/tree/master/小工具/description)：统计量自动标星，GUI界面操作
+* [论文统计性描述生成器](https://github.com/lei940324/toy/tree/master/小工具/description)：统计量自动标星，GUI 界面操作
 * [毕业论文格式调整器](https://github.com/lei940324/toy/tree/master/小工具/ouc_thesis_format)：适用于中国海洋大学的毕业论文格式调整
-* [pdf去水印](https://github.com/lei940324/toy/tree/master/小工具/pdf去水印)：将pdf转为图片，通过对比度进行处理  
+* [pdf去水印](https://github.com/lei940324/toy/tree/master/小工具/pdf去水印)：将 pdf 转为图片，通过对比度进行处理  
 * [文本倾斜矫正](https://github.com/lei940324/toy/tree/master/小工具/文本倾斜矫正)：图片格式的倾斜文本矫正
-* [word套打](https://github.com/lei940324/toy/tree/master/小工具/word套打)：信息存于excel中，批量生成word文件
-
-|        项目名        |               功能                |                         Introduction                         |
-| :------------------: | :-------------------------------: | :----------------------------------------------------------: |
-| 论文统计性描述生成器 |    统计量自动标星，GUI界面操作    | [click](https://github.com/lei940324/toy/tree/master/小工具/description) |
-|  毕业论文格式调整器  |        适用于中国海洋大学         | [click](https://github.com/lei940324/toy/tree/master/小工具/ouc_thesis_format) |
-|      pdf去水印       | 将pdf转为图片，通过对比度进行处理 | [click](https://github.com/lei940324/toy/tree/master/小工具/pdf%E5%8E%BB%E6%B0%B4%E5%8D%B0) |
-|     文本倾斜矫正     |      图片格式的倾斜文本矫正       | [click](https://github.com/lei940324/toy/tree/master/小工具/文本倾斜矫正) |
-|       word套打       | 信息存于excel中，批量生成word文件 | [click](https://github.com/lei940324/toy/tree/master/小工具/word套打) |
+* [word套打](https://github.com/lei940324/toy/tree/master/小工具/word套打)：信息存于 excel 中，批量生成 word 文件
 
 ### <span id="head6"> 微信小应用</span>
 
 基于`itchat`库开发的小应用
 
-|      项目名      |             功能             |                         Introduction                         |
-| :--------------: | :--------------------------: | :----------------------------------------------------------: |
-|   汇总微信消息   |      汇总某些群体的信息      | [click](https://github.com/lei940324/toy/tree/master/微信小应用/汇总微信消息) |
-| 拼接微信好友头像 | 获取微信好友头像，并进行拼接 | [click](https://github.com/lei940324/toy/tree/master/微信小应用/拼接微信好友头像) |
-| 分析微信好友信息 |    包括性别、地区分布分析    | [click](https://github.com/lei940324/toy/tree/master/微信小应用/分析微信好友信息) |
+* [汇总微信消息](https://github.com/lei940324/toy/tree/master/微信小应用/汇总微信消息)：汇总某些群体的信息
+* [拼接微信好友头像](https://github.com/lei940324/toy/tree/master/微信小应用/拼接微信好友头像)：获取微信好友头像，并进行拼接
+* [分析微信好友信息](https://github.com/lei940324/toy/tree/master/微信小应用/分析微信好友信息)：包括性别、地区分布分析
 
 ### <span id="head7"> spider</span>
 
 网络爬虫的例子
 
-|        项目名        |                  功能                  |                         Introduction                         |
-| :------------------: | :------------------------------------: | :----------------------------------------------------------: |
-|     网络爬虫入门     |   `requests`与`selenium`的单线程教程   | [click](https://github.com/lei940324/spider/blob/master/网络爬虫——入门.md) |
-|       **模板**       |                                        |                                                              |
-|        单线程        |      网址无响应，默认自动重连5次       | [click](https://github.com/lei940324/spider/blob/master/模板/GetUrl.py) |
-|        多线程        |            依赖于单线程模板            | [click](https://github.com/lei940324/spider/blob/master/模板/ThreadGetUrl.py) |
-|       **微博**       |                                        |                                                              |
-|       登陆微博       |      使用`requests`获取cookie信息      | [click](https://github.com/lei940324/spider/blob/master/%E5%BE%AE%E5%8D%9A/loginWeibo.py) |
-|     微博高级搜索     | 通过微博自带的高级搜索功能进行数据爬取 | [click](https://github.com/lei940324/spider/tree/master/微博/微博高级搜索) |
-|   **selenium应用**   |                                        |                                                              |
-| 谷歌浏览器初始化设置 |        设定带有参数的谷歌浏览器        | [click](https://github.com/lei940324/spider/blob/master/selenium/chrome_init.py) |
-|     selenium模板     |       依赖于谷歌浏览器初始化设置       | [click](https://github.com/lei940324/spider/blob/master/selenium/template.py) |
+#### 基础入门
+
+* [网络爬虫入门](https://github.com/lei940324/spider/blob/master/基础入门/网络爬虫——入门.md)：`requests`与`selenium`的单线程教程
+* [网络爬虫总结](https://github.com/lei940324/spider/blob/master/基础入门/网络爬虫总结.md)：`requests`与`selenium`使用
+
+#### 模板
+
+* [单线程](https://github.com/lei940324/spider/blob/master/模板/GetUrl.py)：网址无响应，默认自动重连5次
+* [多线程](https://github.com/lei940324/spider/blob/master/模板/ThreadGetUrl.py)：依赖于单线程模板
+
+#### 微博
+
+* [登陆微博](https://github.com/lei940324/spider/blob/master/%E5%BE%AE%E5%8D%9A/loginWeibo.py)：使用`requests`获取cookie信息
+* [微博高级搜索](https://github.com/lei940324/spider/tree/master/微博/微博高级搜索)：通过微博自带的高级搜索功能进行数据爬取
+
+#### selenium应用
+
+* [谷歌浏览器初始化设置](https://github.com/lei940324/spider/blob/master/selenium/chrome_init.py)：设定带有参数的谷歌浏览器
+* [selenium模板](https://github.com/lei940324/spider/blob/master/selenium/template.py)：依赖于谷歌浏览器初始化设置
 
 ### <span id="head8">手机自动化操作</span>
 
 使用`uiautomator2`库进行手机操作，适用于`Android`手机
 
-|     项目名      |                   功能                   |                         Introduction                         |
-| :-------------: | :--------------------------------------: | :----------------------------------------------------------: |
-|   抓取朋友圈    | 模拟滑屏进行抓取，并将内容分词与词云展示 | [click](https://github.com/lei940324/toy/tree/master/手机自动化操作/抓取朋友圈) |
-| 王者荣耀刷金币  |          通过图像识别增加稳定性          | [click](https://github.com/lei940324/toy/tree/master/手机自动化操作/王者荣耀刷金币) |
-| 刷66阅读+趣头条 |          刷完66阅读自动刷趣头条          | [click](https://github.com/lei940324/toy/tree/master/手机自动化操作/66阅读+趣头条.py) |
+* [抓取朋友圈](https://github.com/lei940324/toy/tree/master/手机自动化操作/抓取朋友圈)：模拟滑屏进行抓取，并将内容分词与词云展示
+* [王者荣耀刷金币](https://github.com/lei940324/toy/tree/master/手机自动化操作/王者荣耀刷金币)：通过图像识别增加稳定性
+* [刷66阅读+趣头条](https://github.com/lei940324/toy/tree/master/手机自动化操作/66阅读+趣头条.py)：刷完66阅读自动刷趣头条
 
 ### <span id="head9"> 其他</span>
 
-|  项目名  |                             功能                             |                         Introduction                         |
-| :------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| econometrics | 陈强高级计量经济学笔记 | [click](https://github.com/lei940324/econometrics) |
-| Quantile | 介绍分位数回归，包括分位数Granger因果检验、QVAR及脉冲响应函数 |        [click](https://github.com/lei940324/Quantile)        |
-| 情感分析 | 将文本分词处理后，与情感词典匹配得分，得到情感极性分类与强度。 | [click](https://github.com/lei940324/toy/tree/master/情感分析) |
+* [econometrics](https://github.com/lei940324/econometrics)：陈强高级计量经济学笔记
+* [Quantile](https://github.com/lei940324/Quantile)：介绍分位数回归，包括分位数 Granger 因果检验、QVAR 及脉冲响应函数  
+* [情感分析](https://github.com/lei940324/toy/tree/master/情感分析)：将文本分词处理后，与情感词典匹配得分，得到情感极性分类与强度。
 
 ## <span id="head10"> 📝 笔记</span>
 
 ### <span id="head11"> Git</span>
 
-| 笔记名          | 简介                   |                         Introduction                         |
-| :--------------: | :---------------------: | :----------------------------------------------------------: |
-| Git入门         | 学会最简单的Git操作    | [click](https://github.com/lei940324/toy/blob/master/笔记/Git入门.md) |
-| Github 的那些坑 | 使用 Github 时遇到的坑 | [click](https://github.com/lei940324/toy/blob/master/笔记/Github的那些坑.md) |
+* [Git入门](https://github.com/lei940324/toy/blob/master/笔记/Git入门.md)：学会最简单的 Git 操作
+* [Github 的那些坑](https://github.com/lei940324/toy/blob/master/笔记/Github的那些坑.md)：使用 Github 时遇到的坑
 
 ### <span id="head12"> 基础</span>
 
-|    笔记名    |            简介            |                         Introduction                         |
-| :---------: | :-----------------------: | :----------------------------------------------------------: |
-| 编程之道 | 代码风格、编程之谈、经验分享 | [click](https://github.com/lei940324/toy/blob/master/笔记/编程之道.md) |
-|  python基础  |  字典、列表、正则表达式等  | [click](https://github.com/lei940324/toy/blob/master/笔记/python基础.md) |
-| `pandas`总结 |   `pandas`基本与进阶操作   | [click](https://github.com/lei940324/toy/blob/master/笔记/pandas总结.md) |
-|   网络爬虫   | `requests`与`selenium`使用 | [click](https://github.com/lei940324/toy/blob/master/笔记/网络爬虫.md) |
-|   `xpath`    | `xpath`基本语法与常见问题  | [click](https://nbviewer.jupyter.org/github/lei940324/toy/blob/master/%E7%AC%94%E8%AE%B0/xpath.ipynb) |
-|  数据库基础  | `sql`基本语法与`mysql`命令 | [click](https://github.com/lei940324/toy/blob/master/笔记/SQL基本语法.md) |
+* [编程之道](https://github.com/lei940324/toy/blob/master/笔记/编程之道.md)：代码风格、编程之谈、经验分享
+* [python基础](https://github.com/lei940324/toy/blob/master/笔记/python基础.md)：字典、列表、正则表达式等
+* [`pandas`总结](https://github.com/lei940324/toy/blob/master/笔记/pandas总结.md)：`pandas`基本与进阶操作
+* [xpath](https://nbviewer.jupyter.org/github/lei940324/toy/blob/master/%E7%AC%94%E8%AE%B0/xpath.ipynb)：`xpath`基本语法与常见问题
+* [数据库基础](https://github.com/lei940324/toy/blob/master/笔记/SQL基本语法.md)：`sql`基本语法与`mysql`命令
 
 &emsp;
 
