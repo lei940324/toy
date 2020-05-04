@@ -238,4 +238,4 @@ pip install -r requirements.txt
 
 ## <span id="head25">📍 License</span>
 
-[MIT](https://github.com/lei940324/toy/blob/master/LICENSE.md) © 热心市民石头
+[MIT](https://github.com/lei940324/toy/blob/master/LICENSE) © 热心市民石头
