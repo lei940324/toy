@@ -55,7 +55,7 @@ pip install -r requirements.txt
 	- [ Git](#head11)
 	- [ python](#head12)
 - [ 📢 star 项目](#head13)
-	- [ 规范指南](#head14)
+	- [规范指南](#head14)
 	- [ 排名索引](#head15)
 	- [ 新手入门](#head16)
 	- [Chrome 插件](#head17)
@@ -130,18 +130,18 @@ pip install -r requirements.txt
 
 ### <span id="head11"> Git</span>
 
-* [Git入门](https://github.com/lei940324/toy/blob/master/笔记/Git入门.md)：学会最简单的 Git 操作
-* [Github 的那些坑](https://github.com/lei940324/toy/blob/master/笔记/Github的那些坑.md)：使用 Github 时遇到的坑
+* [Git入门](https://github.com/lei940324/toy/blob/master/笔记/Git/Git入门.md)：学会最简单的 Git 操作
+* [Github 的那些坑](https://github.com/lei940324/toy/blob/master/笔记/Git/Github的那些坑.md)：使用 Github 时遇到的坑
 
 ### <span id="head12"> python </span>
 
-* [编程之道](https://github.com/lei940324/toy/blob/master/笔记/编程之道.md)：代码风格、编程之谈、经验分享
-* [python基础](https://github.com/lei940324/toy/blob/master/笔记/python基础.md)：字典、列表、正则表达式等
-* [`pandas`总结](https://github.com/lei940324/toy/blob/master/笔记/pandas总结.md)：`pandas`基本与进阶操作
-* [xpath](https://nbviewer.jupyter.org/github/lei940324/toy/blob/master/%E7%AC%94%E8%AE%B0/xpath.ipynb)：`xpath`基本语法与常见问题
-* [数据库基础](https://github.com/lei940324/toy/blob/master/笔记/SQL基本语法.md)：`sql`基本语法与`mysql`命令
-* [搭建个人网站](https://github.com/lei940324/toy/blob/master/笔记/搭建网站/搭建个人网站.md)：使用阿里云服务器（Windows Server）+ `Django` + `apache`
-
+* [编程之道](https://github.com/lei940324/toy/blob/master/笔记/python/编程之道.md)：代码风格、编程之谈、经验分享
+* [python基础](https://github.com/lei940324/toy/blob/master/笔记/python/python基础.md)：字典、列表、正则表达式等
+* [`pandas`总结](https://github.com/lei940324/toy/blob/master/笔记/python/pandas总结.md)：`pandas`基本与进阶操作
+* [`xpath`入门](https://nbviewer.jupyter.org/github/lei940324/toy/blob/master/笔记/python/xpath.ipynb)：`xpath`基本语法与常见问题
+* [数据库基础](https://github.com/lei940324/toy/blob/master/笔记/python/SQL基本语法.md)：`sql`基本语法与`mysql`命令
+* [搭建个人网站](https://github.com/lei940324/toy/blob/master/笔记/python/搭建网站/搭建个人网站.md)：使用阿里云服务器（Windows Server）+ `Django` + `apache`
+* [IDE优劣对比](https://github.com/lei940324/toy/blob/master/笔记/python/搭建网站/IDE优劣对比.md)：对比 python 常见IDE，包括 spyder、PyCharm、Jupyter、Vscode。
 &emsp;
 
 ## <span id="head13"> 📢 star 项目</span>
