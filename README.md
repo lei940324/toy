@@ -90,7 +90,7 @@ pip install -r requirements.txt
 
 ### <span id="head7"> spider</span>
 
-网络爬虫的例子
+网络爬虫的例子，项目地址：<https://github.com/lei940324/spider>
 
 #### 基础入门
 
@@ -137,11 +137,13 @@ pip install -r requirements.txt
 
 * [编程之道](https://github.com/lei940324/toy/blob/master/笔记/python/编程之道.md)：代码风格、编程之谈、经验分享
 * [python基础](https://github.com/lei940324/toy/blob/master/笔记/python/python基础.md)：字典、列表、正则表达式等
-* [`pandas`总结](https://github.com/lei940324/toy/blob/master/笔记/python/pandas总结.md)：`pandas`基本与进阶操作
-* [`xpath`入门](https://nbviewer.jupyter.org/github/lei940324/toy/blob/master/笔记/python/xpath.ipynb)：`xpath`基本语法与常见问题
-* [数据库基础](https://github.com/lei940324/toy/blob/master/笔记/python/SQL基本语法.md)：`sql`基本语法与`mysql`命令
+* [pandas总结](https://github.com/lei940324/toy/blob/master/笔记/python/pandas总结.md)：`pandas` 基本与进阶操作
+* [xpath入门](https://nbviewer.jupyter.org/github/lei940324/toy/blob/master/笔记/python/xpath.ipynb)：`xpath` 基本语法与常见问题
+* [数据库基础](https://github.com/lei940324/toy/blob/master/笔记/python/SQL基本语法.md)：`sql` 基本语法与 `mysql` 命令
 * [搭建个人网站](https://github.com/lei940324/toy/blob/master/笔记/python/搭建网站/搭建个人网站.md)：使用阿里云服务器（Windows Server）+ `Django` + `apache`
 * [IDE优劣对比](https://github.com/lei940324/toy/blob/master/笔记/python/IDE优劣对比.md)：对比 python 常见IDE，包括 spyder、PyCharm、Jupyter、Vscode。
+* [第三方库文档](https://github.com/lei940324/toy/blob/master/笔记/python/第三方库文档.md)：常用第三方库的文档教程网站
+
 &emsp;
 
 ## <span id="head13"> 📢 star 项目</span>
