@@ -49,11 +49,9 @@ pip install -r requirements.txt
 	- [spider](#head7)
 	- [手机自动化操作](#head8)
 	- [其他](#head9)
-	
 - [📝 笔记](#head10)
 	- [ Git](#head11)
 	- [ 基础](#head12)
-	
 - [ 📢 star 项目](#head13)
 	- [ 规范指南](#head14)
 	- [ 排名索引](#head15)
@@ -63,13 +61,9 @@ pip install -r requirements.txt
 	- [ 爬虫](#head19)
 	- [ 第三方库](#head20)
 	- [ icons](#head21)
-	
 - [✨ Development Tool](#head22)
-
 - [🐶 Author](#head23)
-
 - [💌 捐赠](#head24)
-
 - [📍 License](#head25)
 
 &emsp;
