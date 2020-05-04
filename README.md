@@ -72,6 +72,12 @@ pip install -r requirements.txt
 
 ### <span id="head5"> 小工具</span>
 
+* [论文统计性描述生成器](https://github.com/lei940324/toy/tree/master/小工具/description)：统计量自动标星，GUI界面操作
+* [毕业论文格式调整器](https://github.com/lei940324/toy/tree/master/小工具/ouc_thesis_format)：适用于中国海洋大学的毕业论文格式调整
+* [pdf去水印](https://github.com/lei940324/toy/tree/master/小工具/pdf去水印)：将pdf转为图片，通过对比度进行处理  
+* [文本倾斜矫正](https://github.com/lei940324/toy/tree/master/小工具/文本倾斜矫正)：图片格式的倾斜文本矫正
+* [word套打](https://github.com/lei940324/toy/tree/master/小工具/word套打)：信息存于excel中，批量生成word文件
+
 |        项目名        |               功能                |                         Introduction                         |
 | :------------------: | :-------------------------------: | :----------------------------------------------------------: |
 | 论文统计性描述生成器 |    统计量自动标星，GUI界面操作    | [click](https://github.com/lei940324/toy/tree/master/小工具/description) |
