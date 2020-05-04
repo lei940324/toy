@@ -29,11 +29,11 @@
 <a href="https://github.com/openatx/uiautomator2"><img src="https://img.shields.io/badge/uiautomator2-2.7.1-brightgreen"></a>
 </p>
 
-## <span id="head1"> 📃介绍</span>
+## <span id="head1"> 📃 介绍</span>
 
 学习python时积累的笔记以及编写的小工具。
 
-## <span id="head2"> 🔨安装依赖库</span>
+## <span id="head2"> 🔨 安装依赖库</span>
 
 ```shell
 pip install -r requirements.txt
@@ -41,25 +41,35 @@ pip install -r requirements.txt
 
 &emsp;
 
-## 目录
+## <span id="head3"> 💕 目录</span>
 
-- [玩具](#head3)
-   - [小工具](#head4)
-   - [微信小应用](#head5)
-   - [spider](#head6)
-   - [手机自动化](#head7)
-   - [其他](#head8)
-- [笔记](#head9)
-- [其他优秀项目](#head10)
-   - [热门](#head11)
-   - [小众](#head12)
-- [浏览器插件](#head13)
+- [<span id="head3">📣 玩具</span>](#head4)
+	- [<span id="head4"> 小工具</span>](#head5)
+	- [<span id="head5"> 微信小应用</span>](#head6)
+	- [<span id="head6"> spider</span>](#head7)
+	- [<span id="head7"> 手机自动化操作</span>](#head8)
+	- [<span id="head8"> 其他</span>](#head9)
+- [<span id="head9"> 📝 笔记</span>](#head10)
+	- [ Git](#head11)
+	- [ 基础](#head12)
+- [<span id="head10"> 📢 star 项目</span>](#head13)
+	- [<span id="head11"> 规范指南</span>](#head14)
+	- [ 排名索引](#head15)
+	- [ 新手入门](#head16)
+	- [Chrome 插件](#head17)
+	- [ 资源分享](#head18)
+	- [ 爬虫](#head19)
+	- [ 第三方库](#head20)
+	- [ icons](#head21)
+- [<span id="head14">✨ Development Tool</span>](#head22)
+- [<span id="head15">🐶 Author</span>](#head23)
+- [<span id="head16">💌 捐赠</span>](#head24)
 
 &emsp;
 
-## <span id="head3">📣 玩具</span>
+## <span id="head4">📣 玩具</span>
 
-### <span id="head4"> 小工具</span>
+### <span id="head5"> 小工具</span>
 
 |        项目名        |               功能                |                         Introduction                         |
 | ------------------ | ------------------------------- | :----------------------------------------------------------: |
@@ -69,7 +79,7 @@ pip install -r requirements.txt
 |     文本倾斜矫正     |      图片格式的倾斜文本矫正       | [click](https://github.com/lei940324/toy/tree/master/小工具/文本倾斜矫正) |
 |       word套打       | 信息存于excel中，批量生成word文件 | [click](https://github.com/lei940324/toy/tree/master/小工具/word套打) |
 
-### <span id="head5"> 微信小应用</span>
+### <span id="head6"> 微信小应用</span>
 
 基于`itchat`库开发的小应用
 
@@ -79,7 +89,7 @@ pip install -r requirements.txt
 | 拼接微信好友头像 | 获取微信好友头像，并进行拼接 | [click](https://github.com/lei940324/toy/tree/master/微信小应用/拼接微信好友头像) |
 | 分析微信好友信息 |    包括性别、地区分布分析    | [click](https://github.com/lei940324/toy/tree/master/微信小应用/分析微信好友信息) |
 
-### <span id="head6"> spider</span>
+### <span id="head7"> spider</span>
 
 网络爬虫的例子
 
@@ -96,7 +106,7 @@ pip install -r requirements.txt
 | 谷歌浏览器初始化设置 |        设定带有参数的谷歌浏览器        | [click](https://github.com/lei940324/spider/blob/master/selenium/chrome_init.py) |
 |     selenium模板     |       依赖于谷歌浏览器初始化设置       | [click](https://github.com/lei940324/spider/blob/master/selenium/template.py) |
 
-### <span id="head7"> 手机自动化操作</span>
+### <span id="head8">手机自动化操作</span>
 
 使用`uiautomator2`库进行手机操作，适用于`Android`手机
 
@@ -106,7 +116,7 @@ pip install -r requirements.txt
 | 王者荣耀刷金币  |          通过图像识别增加稳定性          | [click](https://github.com/lei940324/toy/tree/master/手机自动化操作/王者荣耀刷金币) |
 | 刷66阅读+趣头条 |          刷完66阅读自动刷趣头条          | [click](https://github.com/lei940324/toy/tree/master/手机自动化操作/66阅读+趣头条.py) |
 
-### <span id="head8"> 其他</span>
+### <span id="head9"> 其他</span>
 
 |  项目名  |                             功能                             |                         Introduction                         |
 | ------ | ---------------------------------------------------------- | :----------------------------------------------------------: |
@@ -116,16 +126,16 @@ pip install -r requirements.txt
 
 &emsp;
 
-## <span id="head9"> 📝笔记</span>
+## <span id="head10"> 📝 笔记</span>
 
-### Git
+### <span id="head11"> Git</span>
 
 | 笔记名          | 简介                   |                         Introduction                         |
 | :-------------- | :--------------------- | :----------------------------------------------------------: |
 | Git入门         | 学会最简单的Git操作    | [click](https://github.com/lei940324/toy/blob/master/笔记/Git入门.md) |
 | Github 的那些坑 | 使用 Github 时遇到的坑 | [click](https://github.com/lei940324/toy/blob/master/笔记/Github的那些坑.md) |
 
-### 基础
+### <span id="head12"> 基础</span>
 
 |    笔记名    |            简介            |                         Introduction                         |
 | :--------- | :----------------------- | :----------------------------------------------------------: |
@@ -138,33 +148,33 @@ pip install -r requirements.txt
 
 &emsp;
 
-## <span id="head10"> 📢star 项目</span>
+## <span id="head13"> 📢 star 项目</span>
 
-### <span id="head11"> 规范指南</span>
+### <span id="head14">规范指南</span>
 
 * [document-style-guide](https://github.com/ruanyf/document-style-guide)：中文技术文档的写作规范
 * [zh-google-styleguide](https://github.com/zh-google-styleguide/zh-google-styleguide)：Google 开源项目风格指南 (中文版)
 * [one-python-craftsman](https://github.com/piglei/one-python-craftsman)：来自一位 Pythonista 的编程经验分享，内容涵盖编码技巧、最佳实践与思维模式等方面。
-* [Python-Guide-CN](https://github.com/Prodesire/Python-Guide-CN)：Python最佳实践指南。 The chinese translation of "Hitchhiker's Guide to Python". 作者是 requests 库的作者
+* [Python-Guide-CN](https://github.com/Prodesire/Python-Guide-CN)：Python最佳实践指南。 The Chinese translation of "Hitchhiker's Guide to Python". 作者是 requests 库的作者
 * [Standard Readme](https://github.com/RichardLitt/standard-readme)：A standard style for README files
 
-### 排名索引
+### <span id="head15"> 排名索引</span>
 
 * [GitHub-Chinese-Top-Charts](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)：GitHub中文排行榜，帮助你发现高分优秀中文项目、更高效地吸收国人的优秀经验成果；榜单每周更新一次
 * [HelloGitHub](https://github.com/521xueweihan/HelloGitHub)：分享 GitHub 上有趣、入门级的开源项目
 
-### 新手入门
+### <span id="head16"> 新手入门</span>
 
 * [python-small-examples](https://github.com/jackzhenguo/python-small-examples)：告别枯燥，60 秒学会一个 Python 小例子
 * [Python-100-Days](https://github.com/jackfrued/Python-100-Days)：Python - 100天从新手到大师
 
-### Chrome 插件
+### <span id="head17">Chrome 插件</span>
 
 * [ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes)：谷粒-Chrome插件英雄榜, 为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类~
 * [GitZip for Github](https://github.com/GitZip/chrome-extension)：可以快速从 GitHub 上快速下载文件或目录
 * [Octotree](https://github.com/ovity/octotree)：  快速查看GitHub 上项目结构
 
-### 资源分享
+### <span id="head18"> 资源分享</span>
 
 * [practical-programming-books](https://github.com/EZLippi/practical-programming-books)：这里收录比较实用的计算机相关技术书籍，可以在短期之内入门的简单实用教程、一些技术网站以及一些写的比较好的博文
 * [awesome-python-applications](https://github.com/mahmoud/awesome-python-applications)：Free software that works great, and also happens to be open-source Python.
@@ -173,12 +183,12 @@ pip install -r requirements.txt
 * [Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP)：百度网盘超级会员，迅雷会员、爱奇艺会员账号每日分享，还有优酷，腾讯，芒果等VIP。AND。百度网盘(百度云)不限速工具分享。
 * [free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)：免费的计算机编程类中文书籍
 
-### 爬虫
+### <span id="head19"> 爬虫</span>
 
 * [PythonSpiderNotes](https://github.com/lining0806/PythonSpiderNotes)：Python入门网络爬虫之精华版
 * [awesome-python-login-model](https://github.com/Kr1s77/awesome-python-login-model)：python模拟登陆一些大型网站，还有一些简单的爬虫
 
-### 第三方库
+### <span id="head20"> 第三方库</span>
 
 * [pandas-tutorial](https://github.com/hangsz/pandas-tutorial)：适合初级到中级晋升者的 pandas 教程
 * [joyful-pandas](https://github.com/datawhalechina/joyful-pandas)：Pandas 教程，完整梳理Pandas的主线内容，杜绝浅尝辄止，保证涉及每个部分的核心概念和函数。
@@ -190,7 +200,7 @@ pip install -r requirements.txt
 * [wxpy](https://github.com/youfou/wxpy)：微信机器人 / 可能是最优雅的微信个人号 API ✨✨
 * [uiautomator2](https://github.com/openatx/uiautomator2)：Android Uiautomator2 Python Wrapper，Android 手机自动化控制，
 
-### icons
+### <span id="head21"> icons</span>
 
 * [bytesize-icons](https://github.com/danklammer/bytesize-icons)：Tiny style-controlled SVG iconset (101 icons, 12kb)
 * [SuperTinyIcons](https://github.com/edent/SuperTinyIcons)：nder 1KB each! Super Tiny Icons are miniscule SVG versions of your favourite website and app logos
@@ -198,7 +208,7 @@ pip install -r requirements.txt
 
 &emsp;
 
-## <span id="head14">✨Development Tool</span>
+## <span id="head22">✨ Development Tool</span>
 
 |       工具名       |     功能      |                           图标icon                           |                           官网下载                           |
 | :----------------: | :-----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -209,7 +219,7 @@ pip install -r requirements.txt
 
 &emsp;
 
-## <span id="head15"> 🐶Author</span>
+## <span id="head23">🐶 Author</span>
 
 中国海洋大学经济学研究生，热爱 python，喜欢编一些小玩意，有兴趣可以加我微信一起探讨。
 
@@ -218,7 +228,7 @@ pip install -r requirements.txt
 &emsp;
 
 
-## <span id="head16">💌 捐赠</span>
+## <span id="head24">💌 捐赠</span>
 
 如果觉得项目能帮助到您，请考虑请作者喝一杯咖啡 😄
 
