@@ -43,17 +43,17 @@ pip install -r requirements.txt
 
 ## <span id="head3"> 💕 目录</span>
 
-- [<span id="head3">📣 玩具</span>](#head4)
-	- [<span id="head4"> 小工具</span>](#head5)
-	- [<span id="head5"> 微信小应用</span>](#head6)
-	- [<span id="head6"> spider</span>](#head7)
-	- [<span id="head7"> 手机自动化操作</span>](#head8)
-	- [<span id="head8"> 其他</span>](#head9)
-- [<span id="head9"> 📝 笔记</span>](#head10)
+- [📣 玩具](#head4)
+	- [小工具](#head5)
+	- [微信小应用](#head6)
+	- [spider](#head7)
+	- [手机自动化操作](#head8)
+	- [其他](#head9)
+- [📝 笔记](#head10)
 	- [ Git](#head11)
 	- [ 基础](#head12)
-- [<span id="head10"> 📢 star 项目</span>](#head13)
-	- [<span id="head11"> 规范指南</span>](#head14)
+- [ 📢 star 项目](#head13)
+	- [ 规范指南](#head14)
 	- [ 排名索引](#head15)
 	- [ 新手入门](#head16)
 	- [Chrome 插件](#head17)
@@ -61,10 +61,10 @@ pip install -r requirements.txt
 	- [ 爬虫](#head19)
 	- [ 第三方库](#head20)
 	- [ icons](#head21)
-- [<span id="head14">✨ Development Tool</span>](#head22)
-- [<span id="head15">🐶 Author</span>](#head23)
-- [<span id="head16">💌 捐赠</span>](#head24)
-
+- [✨ Development Tool](#head22)
+- [🐶 Author](#head23)
+- [💌 捐赠](#head24)
+- [📍 License](#head25)
 &emsp;
 
 ## <span id="head4">📣 玩具</span>
@@ -233,3 +233,9 @@ pip install -r requirements.txt
 如果觉得项目能帮助到您，请考虑请作者喝一杯咖啡 😄
 
 <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/183545-561589.png"  width=200 />&#8195;<img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/12/183831-321249.png"  width=200 />
+
+
+
+## <span id="head25">📍 License</span>
+
+[MIT](https://github.com/lei940324/toy/blob/master/LICENSE.md) © 热心市民石头
