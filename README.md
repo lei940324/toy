@@ -33,6 +33,8 @@
 
 学习 python、matlab 时积累的笔记以及编写的小工具。
 
+若发现图片无法加载，可以参考 [Github 的那些坑](https://github.com/lei940324/toy/blob/master/笔记/Github的那些坑.md) 进行解决。
+
 ## <span id="head2"> 🔨 安装依赖库</span>
 
 ```shell
