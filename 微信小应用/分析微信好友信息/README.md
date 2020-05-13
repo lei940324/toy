@@ -13,13 +13,16 @@
 ## 使用
 
 ```
-$ python info.py
+$ python info.py 山东
 ```
 
-如需分析特定省份，需在代码内进行修改，默认山东省
+最后一个参数为特定省份分析
 
 ## Development Tool
 
-- <span>**PyCharm**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" width="50" align="absmiddle"><span>：代码编辑器</span>
+|       工具名       |    功能    |                          图标 icon                           |                           官网下载                           |
+| :----------------: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|      PyCharm       | 代码编辑器 | <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" width="50" align="absmiddle"> | [click](https://www.jetbrains.com/pycharm/download/#section=windows) |
+|      anaconda      | 代码编辑器 | <img src="https://lei-picture.oss-cn-beijing.aliyuncs.com/img/20200504130345.png" width=50/> |    [click](https://www.anaconda.com/products/individual)     |
+| Visual Studio Code | 代码阅读器 | <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/14/193013-466582.png" width="50" align="absmiddle"> |           [click](https://code.visualstudio.com/)            |
 
-- <span>**Visual Studio Code**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/09/000635-457642.png" width="50" align="absmiddle"><span>：代码阅读器</span>

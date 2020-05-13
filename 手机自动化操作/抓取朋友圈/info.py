@@ -54,8 +54,10 @@ class spider():
         while len(self.names) < num:
             for info in self.mi.xpaths('//*[@resource-id="com.tencent.mm:id/fiw"]'):
                 try:
-                    comment = info.text('.//*[@resource-id="com.tencent.mm:id/b8c"]')
-                    name = info.text('.//*[@resource-id="com.tencent.mm:id/e0n"]')
+                    comment = info.text(
+                        './/*[@resource-id="com.tencent.mm:id/b8c"]')
+                    name = info.text(
+                        './/*[@resource-id="com.tencent.mm:id/e0n"]')
 
                     # 不能是广告
                     if comment not in self.comments and not info.exist('.//*[@resource-id="com.tencent.mm:id/e2"]'):
@@ -79,17 +81,17 @@ class spider():
         self.df.to_excel('output.xlsx', index=False)
 
     def get_wordcloud(self):
-        word=''
+        word = ''
         for cut in self.comments:
-            mytext_cut =' '.join(list(jieba.cut(cut)))
-            word +=' '+mytext_cut
+            mytext_cut = ' '.join(list(jieba.cut(cut)))
+            word += ' '+mytext_cut
         trump_coloring = imageio.imread('weixin.jpg')
         wordcloud = WordCloud(
-        font_path='simhei.ttf', margin=5, width=3600, 
-        height=1600, background_color='white',
-        scale=16,
-        max_words=10000, mask=trump_coloring, 
-        max_font_size=100, random_state=42).generate(word)
+            font_path='simhei.ttf', margin=5, width=3600,
+            height=1600, background_color='white',
+            scale=16,
+            max_words=10000, mask=trump_coloring,
+            max_font_size=100, random_state=42).generate(word)
         plt.imshow(wordcloud, interpolation='bilinear')
         wordcloud.to_file('output.png')
         plt.axis('off')

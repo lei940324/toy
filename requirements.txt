@@ -12,8 +12,11 @@ python-docx     # office
 baidu-aip       # baidu_API
 bosonnlp        # bosen_API
 googletrans     # google_API
+beautifulsoup4
+jieba
 
 # anaconda
+openpyxl
 lxml
 pandas
 numpy
@@ -22,7 +25,7 @@ scipy
 requests
 sympy
 statsmodels
-#pyqt5
+pyqt5
 
 
 
