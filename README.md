@@ -41,7 +41,7 @@
 pip install -r requirements.txt
 ```
 
-&emsp;
+-----
 
 ## <span id="head3"> 💕 目录</span>
 
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 - [💌 捐赠](#head24)
 - [📍 License](#head25)
 
-&emsp;
+----
 
 ## <span id="head4">📣 玩具</span>
 
