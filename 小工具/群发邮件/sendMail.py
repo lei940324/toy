@@ -69,7 +69,7 @@ class sendEmail():
 
 if __name__ == "__main__":
     from_addr = 'xxx@qq.com'   # 发信邮箱
-    password = 'xxx'   # QQ 邮箱授权码，QQ 邮箱 设置 >> 账户 打开 SMTP
+    password = 'xxx'   # QQ邮箱授权码，QQ邮箱设置 >> 账户 打开 SMTP
     to_addr = 'xxx@xxx.com'  # 收信方邮箱
     exc = sendEmail(from_addr, password)
 
