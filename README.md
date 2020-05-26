@@ -79,6 +79,7 @@ pip install -r requirements.txt
 * [pdf 去水印](https://github.com/lei940324/toy/tree/master/小工具/pdf去水印)：将 pdf 转为图片，通过对比度进行处理  
 * [文本倾斜矫正](https://github.com/lei940324/toy/tree/master/小工具/文本倾斜矫正)：图片格式的倾斜文本矫正
 * [word 套打](https://github.com/lei940324/toy/tree/master/小工具/word套打)：信息存于 excel 中，批量生成 word 文件
+* [群发邮件](小工具\群发邮件\README.md)：使用 QQ 邮箱群发邮件
 
 ### <span id="head6"> 微信小应用</span>
 
