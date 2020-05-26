@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ## <span id="head3"> 💕 目录</span>
 
-- [📣 玩具](#head4)
+- [📣 玩具](#玩具)
 	- [小工具](#小工具)
 	- [微信小应用](#head6)
 	- [spider](#head7)
@@ -70,7 +70,7 @@ pip install -r requirements.txt
 
 ----
 
-## <span id="head4">📣 玩具</span>
+## 📣 玩具
 
 ### 小工具
 
