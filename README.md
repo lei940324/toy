@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ## <span id="head3"> 💕 目录</span>
 
-- [📣 玩具](#head4)
+- [📣 玩具](#📣 玩具)
 	- [小工具](#head5)
 	- [微信小应用](#head6)
 	- [spider](#head7)
@@ -70,15 +70,15 @@ pip install -r requirements.txt
 
 ----
 
-## <span id="head4">📣 玩具</span>
+## 📣 玩具
 
 ### <span id="head5"> 小工具</span>
 
-* [论文统计性描述生成器](https://github.com/lei940324/toy/tree/master/小工具/description)：统计量自动标星，GUI 界面操作
-* [毕业论文格式调整器](https://github.com/lei940324/toy/tree/master/小工具/ouc_thesis_format)：适用于中国海洋大学的毕业论文格式调整
-* [pdf 去水印](https://github.com/lei940324/toy/tree/master/小工具/pdf去水印)：将 pdf 转为图片，通过对比度进行处理  
-* [文本倾斜矫正](https://github.com/lei940324/toy/tree/master/小工具/文本倾斜矫正)：图片格式的倾斜文本矫正
-* [word 套打](https://github.com/lei940324/toy/tree/master/小工具/word套打)：信息存于 excel 中，批量生成 word 文件
+* [论文统计性描述生成器](小工具/description)：统计量自动标星，GUI 界面操作
+* [毕业论文格式调整器](小工具/ouc_thesis_format)：适用于中国海洋大学的毕业论文格式调整
+* [pdf 去水印](小工具/pdf去水印)：将 pdf 转为图片，通过对比度进行处理 
+* [文本倾斜矫正](小工具/文本倾斜矫正)：图片格式的倾斜文本矫正
+* [word 套打](小工具/word套打)：信息存于 excel 中，批量生成 word 文件
 * [群发邮件](小工具/群发邮件)：使用 QQ 邮箱群发邮件
 
 ### <span id="head6"> 微信小应用</span>
