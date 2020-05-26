@@ -45,8 +45,8 @@ pip install -r requirements.txt
 
 ## <span id="head3"> 💕 目录</span>
 
-- [📣 玩具](#📣 玩具)
-	- [小工具](#head5)
+- [📣 玩具](#head4)
+	- [小工具](#小工具)
 	- [微信小应用](#head6)
 	- [spider](#head7)
 	- [手机自动化操作](#head8)
@@ -70,13 +70,13 @@ pip install -r requirements.txt
 
 ----
 
-## 📣 玩具
+## <span id="head4">📣 玩具</span>
 
-### <span id="head5"> 小工具</span>
+### 小工具
 
 * [论文统计性描述生成器](小工具/description)：统计量自动标星，GUI 界面操作
 * [毕业论文格式调整器](小工具/ouc_thesis_format)：适用于中国海洋大学的毕业论文格式调整
-* [pdf 去水印](小工具/pdf去水印)：将 pdf 转为图片，通过对比度进行处理 
+* [pdf 去水印](小工具/pdf去水印)：将 pdf 转为图片，通过对比度进行处理  
 * [文本倾斜矫正](小工具/文本倾斜矫正)：图片格式的倾斜文本矫正
 * [word 套打](小工具/word套打)：信息存于 excel 中，批量生成 word 文件
 * [群发邮件](小工具/群发邮件)：使用 QQ 邮箱群发邮件
@@ -85,9 +85,9 @@ pip install -r requirements.txt
 
 基于`itchat`库开发的小应用
 
-* [汇总微信消息](https://github.com/lei940324/toy/tree/master/微信小应用/汇总微信消息)：汇总某些群体的信息
-* [拼接微信好友头像](https://github.com/lei940324/toy/tree/master/微信小应用/拼接微信好友头像)：获取微信好友头像，并进行拼接
-* [分析微信好友信息](https://github.com/lei940324/toy/tree/master/微信小应用/分析微信好友信息)：包括性别、地区分布分析
+* [汇总微信消息](微信小应用/汇总微信消息)：汇总某些群体的信息
+* [拼接微信好友头像](微信小应用/拼接微信好友头像)：获取微信好友头像，并进行拼接
+* [分析微信好友信息](微信小应用/分析微信好友信息)：包括性别、地区分布分析
 
 ### <span id="head7"> spider</span>
 
@@ -95,55 +95,55 @@ pip install -r requirements.txt
 
 #### 基础入门
 
-* [网络爬虫入门](https://github.com/lei940324/spider/blob/master/基础入门/网络爬虫——入门.md)：`requests`与`selenium`的单线程教程
-* [网络爬虫总结](https://github.com/lei940324/spider/blob/master/基础入门/网络爬虫总结.md)：`requests`与`selenium`使用
+* [网络爬虫入门](基础入门/网络爬虫——入门.md)：`requests`与`selenium`的单线程教程
+* [网络爬虫总结](基础入门/网络爬虫总结.md)：`requests`与`selenium`使用
 
 #### 模板
 
-* [单线程](https://github.com/lei940324/spider/blob/master/模板/GetUrl.py)：网址无响应，默认自动重连 5 次
-* [多线程](https://github.com/lei940324/spider/blob/master/模板/ThreadGetUrl.py)：依赖于单线程模板
+* [单线程](模板/GetUrl.py)：网址无响应，默认自动重连 5 次
+* [多线程](模板/ThreadGetUrl.py)：依赖于单线程模板
 
 #### 微博
 
-* [登陆微博](https://github.com/lei940324/spider/blob/master/%E5%BE%AE%E5%8D%9A/loginWeibo.py)：使用`requests`获取 cookie 信息
-* [微博高级搜索](https://github.com/lei940324/spider/tree/master/微博/微博高级搜索)：通过微博自带的高级搜索功能进行数据爬取
+* [登陆微博](微博/loginWeibo.py)：使用`requests`获取 cookie 信息
+* [微博高级搜索](微博/微博高级搜索)：通过微博自带的高级搜索功能进行数据爬取
 
 #### selenium 应用
 
-* [谷歌浏览器初始化设置](https://github.com/lei940324/spider/blob/master/selenium/chrome_init.py)：设定带有参数的谷歌浏览器
-* [selenium 模板](https://github.com/lei940324/spider/blob/master/selenium/template.py)：依赖于谷歌浏览器初始化设置
+* [谷歌浏览器初始化设置](selenium/chrome_init.py)：设定带有参数的谷歌浏览器
+* [selenium 模板](selenium/template.py)：依赖于谷歌浏览器初始化设置
 
 ### <span id="head8">手机自动化操作</span>
 
 使用`uiautomator2`库进行手机操作，适用于`Android`手机
 
-* [抓取朋友圈](https://github.com/lei940324/toy/tree/master/手机自动化操作/抓取朋友圈)：模拟滑屏进行抓取，并将内容分词与词云展示
-* [王者荣耀刷金币](https://github.com/lei940324/toy/tree/master/手机自动化操作/王者荣耀刷金币)：通过图像识别增加稳定性
-* [刷 66 阅读+趣头条](https://github.com/lei940324/toy/tree/master/手机自动化操作/66阅读+趣头条.py)：刷完 66 阅读自动刷趣头条
+* [抓取朋友圈](手机自动化操作/抓取朋友圈)：模拟滑屏进行抓取，并将内容分词与词云展示
+* [王者荣耀刷金币](手机自动化操作/王者荣耀刷金币)：通过图像识别增加稳定性
+* [刷 66 阅读+趣头条](手机自动化操作/66阅读+趣头条.py)：刷完 66 阅读自动刷趣头条
 
 ### <span id="head9"> 其他</span>
 
 * [econometrics](https://github.com/lei940324/econometrics)：陈强高级计量经济学笔记
 * [Quantile](https://github.com/lei940324/Quantile)：介绍分位数回归，包括分位数 Granger 因果检验、QVAR 及脉冲响应函数  
-* [情感分析](https://github.com/lei940324/toy/tree/master/情感分析)：将文本分词处理后，与情感词典匹配得分，得到情感极性分类与强度。
+* [情感分析](情感分析)：将文本分词处理后，与情感词典匹配得分，得到情感极性分类与强度。
 
 ## <span id="head10"> 📝 笔记</span>
 
 ### <span id="head11"> Git</span>
 
-* [Git 入门](https://github.com/lei940324/toy/blob/master/笔记/Git/Git入门.md)：学会最简单的 Git 操作
-* [Github 的那些坑](https://github.com/lei940324/toy/blob/master/笔记/Git/Github的那些坑.md)：使用 Github 时遇到的坑
+* [Git 入门](笔记/Git/Git入门.md)：学会最简单的 Git 操作
+* [Github 的那些坑](笔记/Git/Github的那些坑.md)：使用 Github 时遇到的坑
 
 ### <span id="head12"> python </span>
 
-* [编程之道](https://github.com/lei940324/toy/blob/master/笔记/python/编程之道.md)：代码风格、编程之谈、经验分享
-* [python 基础](https://github.com/lei940324/toy/blob/master/笔记/python/python基础.md)：字典、列表、正则表达式等
-* [pandas 总结](https://github.com/lei940324/toy/blob/master/笔记/python/pandas总结.md)：`pandas` 基本与进阶操作
-* [xpath 入门](https://nbviewer.jupyter.org/github/lei940324/toy/blob/master/笔记/python/xpath.ipynb)：`xpath` 基本语法与常见问题
-* [数据库基础](https://github.com/lei940324/toy/blob/master/笔记/python/SQL基本语法.md)：`sql` 基本语法与 `mysql` 命令
-* [搭建个人网站](https://github.com/lei940324/toy/blob/master/笔记/python/搭建网站/搭建个人网站.md)：使用阿里云服务器（Windows Server）+ `Django` + `apache`
-* [IDE 优劣对比](https://github.com/lei940324/toy/blob/master/笔记/python/IDE优劣对比.md)：对比 python 常见 IDE，包括 spyder、PyCharm、Jupyter、Vscode。
-* [第三方库文档](https://github.com/lei940324/toy/blob/master/笔记/python/第三方库文档.md)：常用第三方库的文档教程网站
+* [编程之道](笔记/python/编程之道.md)：代码风格、编程之谈、经验分享
+* [python 基础](笔记/python/python基础.md)：字典、列表、正则表达式等
+* [pandas 总结](笔记/python/pandas总结.md)：`pandas` 基本与进阶操作
+* [xpath 入门](笔记/python/xpath.ipynb)：`xpath` 基本语法与常见问题
+* [数据库基础](笔记/python/SQL基本语法.md)：`sql` 基本语法与 `mysql` 命令
+* [搭建个人网站](笔记/python/搭建网站/搭建个人网站.md)：使用阿里云服务器（Windows Server）+ `Django` + `apache`
+* [IDE 优劣对比](笔记/python/IDE优劣对比.md)：对比 python 常见 IDE，包括 spyder、PyCharm、Jupyter、Vscode。
+* [第三方库文档](笔记/python/第三方库文档.md)：常用第三方库的文档教程网站
 
 &emsp;
 
