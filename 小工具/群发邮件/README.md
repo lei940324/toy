@@ -10,7 +10,7 @@
 
 <div align=center><img src="https://gitee.com/lei940324/picture/raw/master/file/群发email/202005192038-2.png" width="732" ></div>
 
-打开 [QQMail]([QQMail.py) 代码，修改各参数：
+打开 [QQMail](QQMail.py) 代码，修改各参数：
 
 ```python
 from_addr = 'xxx@qq.com'   # 发信邮箱
