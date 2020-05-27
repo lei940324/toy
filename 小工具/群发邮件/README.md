@@ -10,7 +10,7 @@
 
 <div align=center><img src="https://gitee.com/lei940324/picture/raw/master/file/群发email/202005192038-2.png" width="732" ></div>
 
-打开`QQMail`代码，修改各参数：
+打开 [QQMail]([QQMail.py) 代码，修改各参数：
 
 ```python
 from_addr = 'xxx@qq.com'   # 发信邮箱
@@ -32,4 +32,6 @@ exc.quit()
 
 每天 200 封免费发信额度，超过额度按照实际使用量计费，单价为 2 元/1000 封。
 
-需要有个人域名具体教程可参考：<https://blog.csdn.net/u014633966/article/details/87877846>
+需要有个人域名，具体教程可参考：<https://blog.csdn.net/u014633966/article/details/87877846>
+
+打开 [aliyunEmail](aliyunEmail.py) 代码，修改参数参考 QQ 邮箱
