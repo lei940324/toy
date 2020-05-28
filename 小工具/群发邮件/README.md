@@ -14,8 +14,32 @@
 
 ```python
 from_addr = 'xxx@qq.com'   # 发信邮箱，必须为 QQ 邮箱 
-password = 'xxx'   # QQ 邮箱授权码，QQ 邮箱设置 >> 账户 打开 SMTP
-to_addr = 'xxx@xxx.com'  # 收信方邮箱，可以是其他类型邮箱
+password = 'xxx'           # QQ 邮箱授权码，QQ 邮箱设置 >> 账户 打开 SMTP
+to_addr = 'xxx@xxx.com'    # 收信方邮箱，可以是其他类型邮箱
+exc = sendEmail(from_addr, password, types='QQ')
+
+Text = '正文内容'
+exc.addText('邮件标题', Text, '发件人姓名', '收件人姓名')
+# exc.addFile('附件路径', '附件名')
+exc.send(to_addr)
+
+exc.quit()
+```
+
+经过测试，QQ 邮箱有频率限制，大约一分钟不能超过 10 条，这显然不能满足需求，因此推荐使用阿里云。
+
+### 阿里云邮件（默认）
+
+每天 200 封免费发信额度，超过额度按照实际使用量计费，单价为 2 元/1000 封。
+
+需要有个人域名，具体教程可参考：<https://blog.csdn.net/u014633966/article/details/87877846>
+
+打开 [sendMail](QQMail.py) 代码，修改各参数：
+
+```python
+from_addr = 'xxx@lei940324.xyz'   # 配置的发信地址
+password = 'xxx'                  # 密码
+to_addr = 'xxx@xxx.com'           # 收信方邮箱，可以是其他类型邮箱
 exc = sendEmail(from_addr, password)
 
 Text = '正文内容'
@@ -26,12 +50,3 @@ exc.send(to_addr)
 exc.quit()
 ```
 
-经过测试，QQ 邮箱有频率限制，大约一分钟不能超过 10 条，这显然远远不能满足需求，因此推荐使用阿里云。
-
-### 阿里云邮件（默认）
-
-每天 200 封免费发信额度，超过额度按照实际使用量计费，单价为 2 元/1000 封。
-
-需要有个人域名，具体教程可参考：<https://blog.csdn.net/u014633966/article/details/87877846>
-
-打开 [aliyunEmail](aliyunEmail.py) 代码，修改参数参考 QQ 邮箱
