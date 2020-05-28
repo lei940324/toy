@@ -90,6 +90,8 @@ class sendEmail():
         发送邮件
         to_addr: 收信方邮箱
         """
+        if isinstance(to_addr, str):
+            to_addr = [to_addr]
         for name in to_addr:
             try:
                 self.server.sendmail(self.from_addr, name,
