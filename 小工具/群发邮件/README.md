@@ -1,6 +1,6 @@
 <a href="https://www.python.org/downloads/"><img  src="https://img.shields.io/badge/python-3.6%2B-brightgreen"></a>
-<a href="https://mail.qq.com/"><img  src="https://img.shields.io/badge/邮箱-QQ 邮箱-brightgreen"></a>
-<a href="https://mail.qq.com/"><img  src="https://img.shields.io/badge/邮箱-阿里云-brightgreen"></a>
+<a href="https://mail.qq.com/"><img  src="https://img.shields.io/badge/邮箱-QQ 邮箱-blue"></a>
+<a href="https://www.aliyun.com/product/directmail?utm_content=se_1005171211"><img  src="https://img.shields.io/badge/邮箱-阿里云-red"></a>
 
 ### QQ 邮箱
 
