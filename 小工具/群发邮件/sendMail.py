@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-群发邮件，支持 QQ 邮箱(QQ)；阿里云(aliyun)邮件群发
+群发邮件，支持 QQ 邮箱(QQ)；阿里云(aliyun)；网易邮箱（163）邮件群发
 QQ 邮箱有频率限制
 阿里云每天 200 条免费额度
 
@@ -12,7 +12,6 @@ import email
 from email.mime.application import MIMEApplication
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from email.header import Header
 import time
 
 
@@ -32,23 +31,25 @@ class sendEmail():
         types: 邮箱类型，默认阿里云，支持:
                QQ 邮箱 - QQ
                阿里云 - aliyun
+               163 邮箱 - 163
         """
         self.from_addr = from_addr
         self.password = password
         # 初始化
         self.msg = MIMEMultipart()
         if types == 'QQ':
-            smtp_server, host = 'smtp.qq.com', 465   # 发信服务器
-            # 开启发信服务，这里使用的是加密传输
-            self.server = smtplib.SMTP_SSL(host=smtp_server)
+            smtp_server, host = 'smtp.qq.com', 465
         elif types == 'aliyun':
-            smtp_server, host = 'smtpdm.aliyun.com', 80
-            self.server = smtplib.SMTP()
+            smtp_server, host = 'smtpdm.aliyun.com', 465
+        elif types == '163':
+            smtp_server, host = "smtp.163.com", 994
         else:
             raise TypeError('不支持该类型邮箱')
 
         try:
-            self.server.connect(smtp_server, host)
+            # 开启发信服务，这里使用的是加密传输
+            self.server = smtplib.SMTP_SSL(smtp_server, host)
+            # self.server.connect(smtp_server, host)
             self.server.login(self.from_addr, self.password)
         except smtplib.SMTPConnectError:
             raise ConnectError('邮件发送失败，连接失败')
@@ -65,8 +66,8 @@ class sendEmail():
         if FromName is None:
             FromName = self.from_addr
         if ToName is not None:
-            self.msg['To'] = Header(ToName)
-        self.msg['Subject'] = Header(Subject)
+            self.msg['To'] = ToName
+        self.msg['Subject'] = Subject
         self.msg['From'] = f'{FromName} <{self.from_addr}>'
         self.msg['Reply-to'] = self.from_addr
         self.msg['Message-id'] = email.utils.make_msgid()
@@ -89,18 +90,20 @@ class sendEmail():
         发送邮件
         to_addr: 收信方邮箱
         """
-        try:
-            self.server.sendmail(self.from_addr, to_addr, self.msg.as_string())
-        except smtplib.SMTPSenderRefused:
-            raise SendError('邮件发送失败，发件人被拒绝:')
-        except smtplib.SMTPRecipientsRefused:
-            raise SendError('邮件发送失败，收件人被拒绝:')
-        except smtplib.SMTPDataError:
-            raise SendError('邮件发送失败，数据接收拒绝:')
-        except smtplib.SMTPException as e:
-            raise SendError('邮件发送失败, {}'.format(str(e)))
-        except Exception as e:
-            raise SendError('邮件发送异常, {}'.format(str(e)))
+        for name in to_addr:
+            try:
+                self.server.sendmail(self.from_addr, name,
+                                     self.msg.as_string())
+            except smtplib.SMTPSenderRefused:
+                raise SendError('邮件发送失败，发件人被拒绝:')
+            except smtplib.SMTPRecipientsRefused:
+                raise SendError('邮件发送失败，收件人被拒绝:')
+            except smtplib.SMTPDataError:
+                raise SendError('邮件发送失败，数据接收拒绝:')
+            except smtplib.SMTPException as e:
+                raise SendError('邮件发送失败, {}'.format(str(e)))
+            except Exception as e:
+                raise SendError('邮件发送异常, {}'.format(str(e)))
         self.msg = MIMEMultipart()   # 重置邮件内容
 
     def quit(self):
@@ -111,7 +114,7 @@ class sendEmail():
 if __name__ == "__main__":
     from_addr = 'xxx@qq.com'   # 发信邮箱
     password = 'abcdef'   # 邮箱授权码
-    to_addr = 'xxx@qq.com'  # 收信方邮箱
+    to_addr = ['xxx@qq.com']  # 收信方邮箱，列表形式
     exc = sendEmail(from_addr, password, 'QQ')
 
     for i in range(1):
