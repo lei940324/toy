@@ -2,7 +2,7 @@
 <a href="https://mail.qq.com/"><img  src="https://img.shields.io/badge/邮箱-QQ 邮箱-brightgreen"></a>
 <a href="https://mail.qq.com/"><img  src="https://img.shields.io/badge/邮箱-阿里云-brightgreen"></a>
 
-### 使用 QQ 邮箱
+### QQ 邮箱
 
 使用 QQ 邮箱群发邮件，首先需要在 QQ 邮箱的**设置** >> **账户**，开启 SMTP 服务。
 
@@ -10,12 +10,12 @@
 
 <div align=center><img src="https://gitee.com/lei940324/picture/raw/master/file/群发email/202005192038-2.png" width="732" ></div>
 
-打开 [QQMail](QQMail.py) 代码，修改各参数：
+打开 [sendMail](QQMail.py) 代码，修改各参数：
 
 ```python
-from_addr = 'xxx@qq.com'   # 发信邮箱
+from_addr = 'xxx@qq.com'   # 发信邮箱，必须为 QQ 邮箱 
 password = 'xxx'   # QQ 邮箱授权码，QQ 邮箱设置 >> 账户 打开 SMTP
-to_addr = 'xxx@xxx.com'  # 收信方邮箱
+to_addr = 'xxx@xxx.com'  # 收信方邮箱，可以是其他类型邮箱
 exc = sendEmail(from_addr, password)
 
 Text = '正文内容'
@@ -26,9 +26,9 @@ exc.send(to_addr)
 exc.quit()
 ```
 
+经过测试，QQ 邮箱有频率限制，大约一分钟不能超过 10 条，这显然远远不能满足需求，因此推荐使用阿里云。
 
-
-### 使用阿里云邮件
+### 阿里云邮件（默认）
 
 每天 200 封免费发信额度，超过额度按照实际使用量计费，单价为 2 元/1000 封。
 
