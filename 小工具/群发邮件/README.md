@@ -18,7 +18,7 @@
 
    具体教程可参考：[CSDN 博客：利用阿里云邮件推送免费发邮件](https://blog.csdn.net/u014633966/article/details/87877846)
 
-打开 [sendMail](QQMail.py) 代码，修改各参数：
+打开 [sendMail](sendMail.py) 代码，修改各参数：
 
 ```python
 from_addr = 'xxx@lei940324.xyz'   # 配置的发信地址
@@ -44,7 +44,7 @@ exc.quit()
 
 <div align=center><img src="https://gitee.com/lei940324/picture/raw/master/file/群发email/202005192038-2.png" width="732" ></div>
 
-打开 [sendMail](QQMail.py) 代码，修改各参数：
+打开 [sendMail](sendMail.py) 代码，修改各参数：
 
 ```python
 from_addr = 'xxx@qq.com'   # 发信邮箱，必须为 QQ 邮箱 
@@ -68,7 +68,7 @@ exc.quit()
 
 <div align=center><img src="https://gitee.com/lei940324/picture/raw/master/file/email/202005125344-1.png" width="750" ></div>
 
-打开 [sendMail](QQMail.py) 代码，修改各参数：
+打开 [sendMail](sendMail.py) 代码，修改各参数：
 
 ```python
 from_addr = 'xxx@163.com'   # 发信邮箱，必须为 163 邮箱 
