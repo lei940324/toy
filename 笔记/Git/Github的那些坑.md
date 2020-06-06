@@ -242,15 +242,7 @@ Github 上代码更新迭代的频率还是蛮快的，每次更新要么就是�
 
 **方法一：**
 
-最开始，使用 Typora 的插件。项目网址：<https://github.com/Thobian/typora-plugins-win-img>
-
-使用的上传服务器为 **Github**。优点是免费且方便，缺点也很明显，第一非常不稳定，经常上传失败，需要等一会再试；第二公众号不支持（别的如知乎平台没有试过），无法载入相应图片
-
-于是考虑换个服务器，使用 **阿里云 OSS**，以上缺点没有了，但是相较方法二而言，不能自定义链接格式，于是最终选择使用方法二
-
-**方法二：**
-
-阿里云 OSS + PicGO
+现在 Typora 已内置图床，采用阿里云 OSS + PicGO 方式
 
 参考网址：<https://zhuanlan.zhihu.com/p/63557477>
 
@@ -269,6 +261,67 @@ PicGo 的自定义链接设置为：
 ```
 
 这样放入的图片居中，且图片尺寸不会太大
+
+**方法二：**
+
+Quicker + gitee
+
+需要自己编写动作，使用 python 代码
+
+```python
+# -*- coding: utf-8 -*-
+"""
+@author: lei
+"""
+
+from PIL import ImageGrab, Image
+import base64
+from io import BytesIO
+import time
+import requests
+
+im = ImageGrab.grabclipboard()   # 获取剪贴板文件
+if not isinstance(im, Image.Image):
+    raise ValueError("剪切版不含图片")
+width = int(im.size[0]*0.65)
+if width >= 750:
+    width = 750
+
+nameY = time.strftime('%Y', time.localtime(time.time()))
+nameM = time.strftime('%m%d', time.localtime(time.time()))
+nameH = time.strftime('%H%M%S', time.localtime(time.time()))
+
+
+def image_to_base64(img):
+    output_buffer = BytesIO()
+    img.save(output_buffer, format='JPEG')
+    binary_data = output_buffer.getvalue()
+    base64_data = base64.b64encode(binary_data)
+    return base64_data
+
+
+content = image_to_base64(im)
+
+# 上传至gitee
+owner = 'lei940324'   # 用户名
+repo = 'picture'   # 仓库名
+path = f'img/{nameY}/{nameM}/{nameH}.png'
+message = '上传图床'
+
+data = {
+    "access_token": "xxx",   # 申请私人令牌，url:https://gitee.com/profile/personal_access_tokens
+    "content": content,
+    "message": message
+}
+url = f'https://gitee.com/api//v5/repos/{owner}/{repo}/contents/{path}'
+
+req = requests.post(url=url, data=data)
+pic = req.json()['content']['download_url']
+out = f'<div align=center><img src="{pic}" width="{width}" ></div>'
+print(out)
+```
+
+
 
 ### <span id="head21"> 表格</span>
 
