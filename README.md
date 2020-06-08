@@ -5,7 +5,7 @@
 </p>
 <h1 align="center">toy</h1>
 <p align="center">
-<em>Python ❤️    献给我亲爱的女朋友——如</em>
+Guido van Rossum ❤️   人生苦短，我用 python
 </p>
 <p align="center">
 <a href="https://www.python.org/downloads/"><img  src="https://img.shields.io/badge/python-3.6%2B-brightgreen"></a>
@@ -28,6 +28,7 @@
 <a href="https://github.com/sympy/sympy"><img src="https://img.shields.io/badge/sympy-1.5.1-lightgrey"></a>
 <a href="https://github.com/openatx/uiautomator2"><img src="https://img.shields.io/badge/uiautomator2-2.7.1-brightgreen"></a>
 </p>
+
 
 ## <span id="head1"> 📃 介绍</span>
 
