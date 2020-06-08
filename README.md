@@ -54,6 +54,7 @@ pip install -r requirements.txt
 - [📝 笔记](#head10)
 	- [ Git](#head11)
 	- [ python](#head12)
+	- [其他](#其他)
 - [ 📢 star 项目](#head13)
 	- [规范指南](#head14)
 	- [ 排名索引](#head15)
@@ -139,11 +140,16 @@ pip install -r requirements.txt
 * [编程之道](笔记/python/编程之道.md)：代码风格、编程之谈、经验分享
 * [python 基础](笔记/python/python基础.md)：字典、列表、正则表达式等
 * [pandas 总结](笔记/python/pandas总结.md)：`pandas` 基本与进阶操作
-* [xpath 入门](笔记/python/xpath.ipynb)：`xpath` 基本语法与常见问题
+* [xpath 入门](https://nbviewer.jupyter.org/github/lei940324/toy/blob/master/笔记/python/xpath.ipynb)：`xpath` 基本语法与常见问题
 * [数据库基础](笔记/python/SQL基本语法.md)：`sql` 基本语法与 `mysql` 命令
 * [搭建个人网站](笔记/python/搭建网站/搭建个人网站.md)：使用阿里云服务器（Windows Server）+ `Django` + `apache`
 * [IDE 优劣对比](笔记/python/IDE优劣对比.md)：对比 python 常见 IDE，包括 spyder、PyCharm、Jupyter、Vscode。
 * [第三方库文档](笔记/python/第三方库文档.md)：常用第三方库的文档教程网站
+
+### 其他
+
+* [termux](笔记/termux.md)：Termux 是一个 Android 下一个高级的终端模拟器,开源且不需要 root，支持 apt 管理软件包，十分方便安装软件包，完美支持 Python、 PHP、 Ruby、 Nodejs、 MySQL等。随着智能设备的普及和性能的不断提升，如今的手机、平板等的硬件标准已达到了初级桌面计算机的硬件标准，用心去打造 DIY 的话完全可以把手机变成一个强大的极客工具。
+* [玩转阿里云](笔记/玩转阿里云.md)：介绍阿里云服务器 ECS、云存储 OSS、域名、CDN、邮件推送等服务
 
 &emsp;
 
