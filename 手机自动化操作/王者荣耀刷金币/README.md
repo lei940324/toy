@@ -29,7 +29,7 @@
 
 因为王者荣耀无法通过 uiautomator2 获取控件，所以本文思路是通过 uiautomator2 获取手机截图，接入腾讯 OCR 进行文字识别，并得到其文字位置，进而点击对应坐标并保存按钮截图，最后完成其按钮操作。以后的循环就只根据图像识别，进行模糊匹配获取当前屏幕信息，不再进行 OCR 识别。
 
-uiautomator2 库本身带有 OCR 识别功能，但是并没有对应的 API 接口，需要自己找，于是从腾讯开发者里找到了文字 OCR，结果发现并没有对应的 python3SDK 接口，真是坑，只好自己编个程序获取数据了，具体原理不细说了，不是本文的重点，有兴趣的可以认真看看[tencentOCR.py](tencentOCR.py)，没兴趣的也要进入[tencentOCR.py](tencentOCR.py)进行参数设定，找到代码里**appid，secret_id，secret_key**自己更改一下，[腾讯 AI 中心](https://open.youtu.qq.com/#/open)申请一个账号，在控制台能看到这几个变量，每个账号都有专属的 ID。
+uiautomator2 库本身带有 OCR 识别功能，但是并没有对应的 API 接口，本文使用腾讯优图文字 OCR，使用代码 [tencentOCR.py](tencentOCR.py) 实现 API 接口调用，并需要进入 [tencentOCR.py](tencentOCR.py) 进行参数设定，找到代码里 **appid，secret_id，secret_key** 自己更改一下，[腾讯 AI 中心](https://open.youtu.qq.com/#/open) 申请一个账号，在控制台能看到这几个变量，每个账号都有专属的 ID。
 
 ## 使用方法
 
@@ -40,7 +40,7 @@ uiautomator2 库本身带有 OCR 识别功能，但是并没有对应的 API 接
 <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/06/133305-447174.png" width="500">
 
 
-3. 根据闯关的不同，调整`main.py`代码中`timer`参数值，默认为 98 秒
+3. 根据闯关的不同，调整 `main.py` 代码中 `timer` 参数值，默认为 98 秒
 
 4. 命令行输入：
 
