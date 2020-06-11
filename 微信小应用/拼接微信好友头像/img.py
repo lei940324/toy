@@ -11,19 +11,23 @@ import PIL.Image as Image
 
 itchat.auto_login()
 friends = itchat.get_friends(update=True)[0:]
-user = friends[0]["UserName"]   
+user = friends[0]["UserName"]
 
 # 获取好友头像
 name = []
 for i in friends:
     img = itchat.get_head_img(userName=i["UserName"])
-    name.append(i["NickName"])
-    fileImage = open(rf'头像\{i["NickName"]}.jpg','wb')
-    fileImage.write(img)
-    fileImage.close()
-
+    try :
+        name.append(i["NickName"])
+        fileImage = open(rf'头像\{i["NickName"]}.jpg', 'wb')
+        fileImage.write(img)
+        fileImage.close()
+    except:
+        pass
+if len(name) > 50:
+    name = name[:50]
 # 拼接各头像
-num = len(friends)
+num = len(name)
 each_size = int(math.sqrt(float(640*640)/num))
 lines = int(640/each_size)
 image = Image.new('RGBA', (640, 640))
