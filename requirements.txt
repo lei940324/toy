@@ -15,17 +15,17 @@ googletrans     # google_API
 beautifulsoup4
 jieba
 
-# anaconda
-openpyxl
-lxml
-pandas
-numpy
-matplotlib
-scipy
-requests
-sympy
-statsmodels
-pyqt5
+# # anaconda
+# openpyxl
+# lxml
+# pandas
+# numpy
+# matplotlib
+# scipy
+# requests
+# sympy
+# statsmodels
+# pyqt5
 
 
 
