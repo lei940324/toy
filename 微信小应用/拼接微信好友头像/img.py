@@ -29,7 +29,7 @@ if len(name) > 50:
 # 拼接各头像
 num = len(name)
 each_size = int(math.sqrt(float(640*640)/num))
-lines = int(640/each_size)
+lines = int(650/each_size)
 image = Image.new('RGBA', (640, 640))
 x = 0
 y = 0
